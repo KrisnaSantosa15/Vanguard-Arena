@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0368c66bf9b8914e8132306d8a7d98b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Portrait: {instanceID: 0}
+  - BossTypeIcon: {instanceID: 0}
+  - UnitViewPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

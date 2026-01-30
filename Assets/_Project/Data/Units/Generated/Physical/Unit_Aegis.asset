@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Aegis
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_aegis
+  DisplayName: Aegis
+  Type: 0
+  Role: 0
+  Element: 0
+  Rarity: 3
+  HP: 150
+  ATK: 8
+  DEF: 15
+  SPD: 8
+  CritRate: 3
+  CritDamage: 130
+  BasicHitsMin: 1
+  BasicHitsMax: 1
+  BasicTargetPattern: 0
+  BasicSkillDescription: Strikes a single enemy with a defensive blow.
+  UltimateEnergyCost: 3
+  UltimateCooldownTurns: 3
+  UltimateTargetPattern: 8
+  UltimateSkillDescription: Raises shields, protecting all allies from harm.
+  PassiveName: Protective Shield
+  PassiveDescription: At battle start, grants shield to all allies equal to 20% of
+    max HP.
+  Passive:
+    Type: 1
+    TriggerThreshold: 0.5
+    Value: 30
+    Modifier: 0.2
+    Duration: 99
+    EffectType: 1
+    TargetSelf: 1
+    TargetAllies: 1
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

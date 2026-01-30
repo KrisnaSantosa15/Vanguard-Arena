@@ -1,0 +1,16 @@
+{
+    "name": "VanguardArena.Presentation",
+    "rootNamespace": "Project.Presentation",
+    "references": [
+        "VanguardArena.Domain"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "VanguardArena.Tests.PlayMode",
+    "rootNamespace": "VanguardArena.Tests.PlayMode",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "VanguardArena.Domain",
+        "VanguardArena.Presentation",
+        "VanguardArena.Tests.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

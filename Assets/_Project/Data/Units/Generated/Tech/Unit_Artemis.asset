@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Artemis
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_artemis
+  DisplayName: Artemis
+  Type: 1
+  Role: 1
+  Element: 1
+  Rarity: 2
+  HP: 70
+  ATK: 15
+  DEF: 4
+  SPD: 14
+  CritRate: 12
+  CritDamage: 170
+  BasicHitsMin: 1
+  BasicHitsMax: 1
+  BasicTargetPattern: 0
+  BasicSkillDescription: Precision Shot - Takes careful aim and fires a high-powered
+    arrow at a single target.
+  UltimateEnergyCost: 2
+  UltimateCooldownTurns: 2
+  UltimateTargetPattern: 7
+  UltimateSkillDescription: Arrow Storm - Fires a barrage of arrows that rain down
+    on all enemies simultaneously.
+  PassiveName: Aimed Shot
+  PassiveDescription: Basic attacks have +10% crit rate against low HP targets.
+  Passive:
+    Type: 3
+    TriggerThreshold: 0.5
+    Value: 10
+    Modifier: 0.2
+    Duration: 2
+    EffectType: 0
+    TargetSelf: 1
+    TargetAllies: 0
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

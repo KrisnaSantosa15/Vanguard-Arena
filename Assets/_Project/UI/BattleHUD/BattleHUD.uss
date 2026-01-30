@@ -1,0 +1,249 @@
+.root {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  padding: 14px;
+  justify-content: space-between;
+}
+
+/* --- Top Bar --- */
+.topBar {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.topLeft {
+  flex-direction: row;
+  gap: 8px;
+  background-color: rgba(0,0,0,0.35);
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.topCenter {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.turnLabel {
+  font-size: 18px;
+  unity-font-style: bold;
+  background-color: rgba(0,0,0,0.35);
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
+.bossPanel {
+  width: 420px;
+  background-color: rgba(0,0,0,0.35);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.bossHeader {
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.bossPortrait {
+  width: 54px;
+  height: 54px;
+  background-color: rgba(255,255,255,0.12);
+  border-radius: 10px;
+}
+
+.bossHeaderText {
+  flex-grow: 1;
+}
+
+.bossName {
+  font-size: 16px;
+  unity-font-style: bold;
+  margin-bottom: 4px;
+}
+
+.bossHpBar {
+  height: 18px;
+}
+
+.bossSkills {
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 8px;
+  justify-content: flex-end;
+}
+
+.skillIcon {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255,255,255,0.12);
+  border-radius: 10px;
+}
+
+/* --- Timeline Container (Bottom-Center) --- */
+.timelineContainer {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  translate: -50% 0;
+  
+  flex-direction: column;
+  width: 700px;
+  gap: 10px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 12px;
+  border-radius: 14px;
+}
+
+.energyPanel {
+  flex-direction: column;
+  gap: 6px;
+}
+
+.energyText {
+  font-size: 16px;
+  unity-font-style: bold;
+}
+
+.energyBar {
+  height: 18px;
+}
+
+.timelinePanel {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.nextTurnLabel {
+  width: 90px;
+  font-size: 12px;
+  unity-font-style: bold;
+  opacity: 0.9;
+}
+
+.timelineStrip {
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.timelineItem {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,0.12);
+  justify-content: center;
+  align-items: center;
+}
+
+.timelineItem--current {
+  outline-width: 2px;
+  outline-color: rgba(255,255,255,0.9);
+}
+
+.timelineLabel {
+  font-size: 11px;
+  unity-font-style: bold;
+}
+
+/* --- Buttons --- */
+.btn {
+  background-color: rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 8px 10px;
+  unity-font-style: bold;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  min-width: 48px;
+}
+
+/* --- Pause overlay --- */
+.pauseOverlay {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.pauseCard {
+  width: 360px;
+  background-color: rgba(15,15,15,0.9);
+  padding: 16px;
+  border-radius: 14px;
+  gap: 10px;
+}
+
+.pauseTitle {
+  font-size: 22px;
+  unity-font-style: bold;
+  margin-bottom: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* --- Manual Action Panel (Bottom-Right) --- */
+.actionPanel {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+
+  width: 180px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 12px;
+  border-radius: 14px;
+  gap: 10px;
+}
+
+.actionHint {
+  font-size: 13px;
+  unity-font-style: bold;
+  opacity: 0.95;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.actionBtn {
+  height: 56px;
+  font-size: 16px;
+  padding: 12px;
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 12px;
+}
+
+.actionBtn:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
+.actionBtn:disabled {
+  opacity: 0.4;
+  background-color: rgba(255,255,255,0.08);
+}
+
+.passiveBtn {
+  height: 42px;
+  font-size: 20px;
+  padding: 8px;
+  background-color: rgba(100,150,255,0.2);
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.passiveDesc {
+  font-size: 14px;
+  white-space: normal;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  opacity: 0.9;
+  padding: 8px;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 8px;
+}

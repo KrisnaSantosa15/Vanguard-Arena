@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Ragnar
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_ragnar
+  DisplayName: Ragnar
+  Type: 0
+  Role: 1
+  Element: 0
+  Rarity: 3
+  HP: 115
+  ATK: 19
+  DEF: 6
+  SPD: 10
+  CritRate: 12
+  CritDamage: 200
+  BasicHitsMin: 1
+  BasicHitsMax: 2
+  BasicTargetPattern: 0
+  BasicSkillDescription: Reckless Assault - Charges forward with wild abandon, striking
+    1-2 times with brutal force.
+  UltimateEnergyCost: 2
+  UltimateCooldownTurns: 2
+  UltimateTargetPattern: 7
+  UltimateSkillDescription: Bloodlust Rampage - Goes berserk and attacks all enemies
+    in a violent frenzy.
+  PassiveName: Rage
+  PassiveDescription: Each turn in combat, gain +10% ATK (stacks up to 5 times).
+  Passive:
+    Type: 2
+    TriggerThreshold: 0.5
+    Value: 0
+    Modifier: 0.1
+    Duration: 99
+    EffectType: 4
+    TargetSelf: 1
+    TargetAllies: 0
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

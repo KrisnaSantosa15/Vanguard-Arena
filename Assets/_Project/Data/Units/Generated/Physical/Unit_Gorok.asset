@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Gorok
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_gorok
+  DisplayName: Gorok
+  Type: 0
+  Role: 0
+  Element: 0
+  Rarity: 2
+  HP: 135
+  ATK: 9
+  DEF: 13
+  SPD: 6
+  CritRate: 3
+  CritDamage: 130
+  BasicHitsMin: 1
+  BasicHitsMax: 1
+  BasicTargetPattern: 0
+  BasicSkillDescription: Heavy Smash - Crushes a single enemy with overwhelming brute
+    force.
+  UltimateEnergyCost: 3
+  UltimateCooldownTurns: 3
+  UltimateTargetPattern: 7
+  UltimateSkillDescription: Ground Pound - Slams the earth with tremendous force,
+    creating shockwaves that damage all foes.
+  PassiveName: Thick Skin
+  PassiveDescription: When taking damage, gain +15% DEF for 2 turns.
+  Passive:
+    Type: 4
+    TriggerThreshold: 0.5
+    Value: 0
+    Modifier: 0.15
+    Duration: 2
+    EffectType: 6
+    TargetSelf: 1
+    TargetAllies: 0
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

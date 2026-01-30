@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Merlin
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_merlin
+  DisplayName: Merlin
+  Type: 1
+  Role: 3
+  Element: 2
+  Rarity: 3
+  HP: 85
+  ATK: 15
+  DEF: 6
+  SPD: 11
+  CritRate: 10
+  CritDamage: 160
+  BasicHitsMin: 1
+  BasicHitsMax: 1
+  BasicTargetPattern: 0
+  BasicSkillDescription: Arcane Bolt - Fires a concentrated magical projectile at
+    a single enemy.
+  UltimateEnergyCost: 3
+  UltimateCooldownTurns: 3
+  UltimateTargetPattern: 7
+  UltimateSkillDescription: Inferno Catastrophe - Unleashes a devastating firestorm
+    that engulfs all enemies in flames.
+  PassiveName: Burn Master
+  PassiveDescription: Ultimate applies Burn to all enemies for 3 turns.
+  Passive:
+    Type: 7
+    TriggerThreshold: 0.5
+    Value: 10
+    Modifier: 0.2
+    Duration: 3
+    EffectType: 3
+    TargetSelf: 1
+    TargetAllies: 0
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

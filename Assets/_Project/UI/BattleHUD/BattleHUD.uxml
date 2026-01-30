@@ -1,0 +1,65 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/BattleHUD/BattleHUD.uss?fileID=7433441132597879392&amp;guid=d1456c302ddd5314ba21d661a040c56d&amp;type=3#BattleHUD"/>
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="topBar" class="topBar">
+            <ui:VisualElement name="topLeft" class="topLeft">
+                <ui:Button name="btnPause" text="II" class="btn small"/>
+                <ui:Button name="btnSpeed" text="x1" class="btn small"/>
+                <ui:Button name="btnAuto" text="Auto" class="btn small"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="topCenter" class="topCenter">
+                <ui:Label name="lblTurn" text="Turn 1/10" class="turnLabel"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="bossPanel" class="bossPanel">
+                <ui:VisualElement name="bossHeader" class="bossHeader">
+                    <ui:VisualElement name="bossPortrait" class="bossPortrait"/>
+                    <ui:VisualElement name="bossHeaderText" class="bossHeaderText">
+                        <ui:Label name="bossName" text="Boss Name" class="bossName"/>
+                        <ui:ProgressBar name="bossHpBar" title="HP" value="100" class="bossHpBar"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="bossSkills" class="bossSkills">
+                    <ui:VisualElement name="bossSkillPassive" class="skillIcon"/>
+                    <ui:VisualElement name="bossSkillBasic" class="skillIcon"/>
+                    <ui:VisualElement name="bossSkillUlt" class="skillIcon"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <!-- Timeline & Energy (Bottom-Center) -->
+        <ui:VisualElement name="timelineContainer" class="timelineContainer">
+            <ui:VisualElement name="energyPanel" class="energyPanel">
+                <ui:Label name="lblEnergy" text="Energy 2/10" class="energyText"/>
+                <ui:ProgressBar name="energyBar" title="Energy Bar" value="0" class="energyBar"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="timelinePanel" class="timelinePanel">
+                <ui:Label name="lblNext" text="Next Turn" class="nextTurnLabel"/>
+                <ui:VisualElement name="timelineStrip" class="timelineStrip"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Manual Action Buttons (Bottom-Right) -->
+        <ui:VisualElement name="actionPanel" class="actionPanel hidden">
+            <ui:Label name="lblActionHint" text="Choose action" class="actionHint"/>
+            <ui:Button name="btnBasic" text="BASIC" class="btn actionBtn"/>
+            <ui:Button name="btnUlt" text="ULTIMATE" class="btn actionBtn"/>
+            <ui:Button name="btnPassive" text="ℹ" class="btn passiveBtn"/>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="pauseOverlay" class="pauseOverlay hidden">
+            <ui:VisualElement class="pauseCard">
+                <ui:Label text="Paused" class="pauseTitle"/>
+                <ui:Button name="btnResume" text="Resume" class="btn"/>
+                <ui:Button name="btnQuit" text="Quit (later)" class="btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Passive Info Modal -->
+        <ui:VisualElement name="passiveOverlay" class="pauseOverlay hidden">
+            <ui:VisualElement class="pauseCard">
+                <ui:Label name="lblPassiveTitle" text="Passive Ability" class="pauseTitle"/>
+                <ui:Label name="lblPassiveDesc" text="Description here..." class="passiveDesc"/>
+                <ui:Button name="btnClosePassive" text="Close" class="btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

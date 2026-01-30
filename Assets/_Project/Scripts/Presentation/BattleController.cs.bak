@@ -1,0 +1,11 @@
+        private IEnumerator PlayDelayedHit(UnitRuntimeState unit, float delay, bool isUlt, bool isHit)
+        {
+            yield return new WaitForSeconds(delay);
+            PlayAnimation(unit, isUlt, isHit);
+        }
+
+        private IEnumerator SpawnDelayedPopup(UnitRuntimeState target, int dmg, bool isCrit, bool isHeal, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            SpawnDamagePopup(target, dmg, isCrit, isHeal);
+        }

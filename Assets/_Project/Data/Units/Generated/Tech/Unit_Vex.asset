@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Vex
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_vex
+  DisplayName: Vex
+  Type: 0
+  Role: 1
+  Element: 1
+  Rarity: 2
+  HP: 65
+  ATK: 17
+  DEF: 3
+  SPD: 16
+  CritRate: 18
+  CritDamage: 190
+  BasicHitsMin: 2
+  BasicHitsMax: 3
+  BasicTargetPattern: 0
+  BasicSkillDescription: Blade Flurry - Unleashes a whirlwind of precise cuts, striking
+    2-3 times with deadly efficiency.
+  UltimateEnergyCost: 2
+  UltimateCooldownTurns: 2
+  UltimateTargetPattern: 0
+  UltimateSkillDescription: Silent Death - Vanishes and reappears behind the target
+    for a lethal critical strike.
+  PassiveName: Backstab
+  PassiveDescription: Critical hits reduce target's DEF by 15% for 2 turns.
+  Passive:
+    Type: 3
+    TriggerThreshold: 0.5
+    Value: 0
+    Modifier: 0.15
+    Duration: 2
+    EffectType: 5
+    TargetSelf: 1
+    TargetAllies: 0
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

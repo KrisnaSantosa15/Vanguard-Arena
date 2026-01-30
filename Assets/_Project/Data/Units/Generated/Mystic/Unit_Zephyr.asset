@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0368c66bf9b8914e8132306d8a7d98b, type: 3}
+  m_Name: Unit_Zephyr
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Domain.UnitDefinitionSO
+  Portrait: {fileID: 0}
+  IsBoss: 0
+  BossTypeIcon: {fileID: 0}
+  Id: unit_zephyr
+  DisplayName: Zephyr
+  Type: 1
+  Role: 2
+  Element: 2
+  Rarity: 2
+  HP: 90
+  ATK: 10
+  DEF: 7
+  SPD: 10
+  CritRate: 5
+  CritDamage: 140
+  BasicHitsMin: 1
+  BasicHitsMax: 1
+  BasicTargetPattern: 0
+  BasicSkillDescription: Shadow Curse - Hurls dark energy at a single enemy, draining
+    their vitality.
+  UltimateEnergyCost: 2
+  UltimateCooldownTurns: 2
+  UltimateTargetPattern: 8
+  UltimateSkillDescription: Ritual of Renewal - Performs a dark ritual that channels
+    life force to heal all allies.
+  PassiveName: Dark Blessing
+  PassiveDescription: At turn start, heal all allies for 5% of their max HP.
+  Passive:
+    Type: 2
+    TriggerThreshold: 0.5
+    Value: 5
+    Modifier: 0.2
+    Duration: 1
+    EffectType: 1
+    TargetSelf: 1
+    TargetAllies: 1
+  UnitViewPrefab: {fileID: 4015444671137645189, guid: a7e355fa0b473ea428dc9bfc8bae43c2, type: 3}

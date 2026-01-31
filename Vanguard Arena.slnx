@@ -1,8 +1,10 @@
 ﻿<Solution>
+  <Project Path="VanguardArena.Tests.EditMode.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="VanguardArena.Domain.csproj" />
+  <Project Path="VanguardArena.Tests.PlayMode.csproj" />
   <Project Path="VanguardArena.Presentation.csproj" />
   <Project Path="VanguardArena.Tests.Utils.csproj" />
-  <Project Path="VanguardArena.Tests.EditMode.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="VanguardArena.Editor.csproj" />
 </Solution>

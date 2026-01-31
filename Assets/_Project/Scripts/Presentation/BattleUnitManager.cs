@@ -71,10 +71,33 @@ namespace Project.Presentation
                 }
             }
 
-            FileLogger.Log($"Team spawn complete. Total units in battle: {_units.Count}", "SPAWN");
-        }
+        FileLogger.Log($"Team spawn complete. Total units in battle: {_units.Count}", "SPAWN");
+    }
 
-        public bool TryGetView(UnitRuntimeState unit, out UnitView view)
+    /// <summary>
+    /// Clear all units and destroy their GameObjects (for test cleanup).
+    /// </summary>
+    public void ClearAll()
+    {
+        FileLogger.Log($"Clearing {_units.Count} units and {_views.Count} views", "CLEAR");
+        
+        // Destroy all unit GameObjects
+        foreach (var view in _views.Values)
+        {
+            if (view != null && view.gameObject != null)
+            {
+                Destroy(view.gameObject);
+            }
+        }
+        
+        // Clear internal collections
+        _units.Clear();
+        _views.Clear();
+        
+        FileLogger.Log("All units cleared", "CLEAR");
+    }
+
+    public bool TryGetView(UnitRuntimeState unit, out UnitView view)
         {
             if (unit == null)
             {

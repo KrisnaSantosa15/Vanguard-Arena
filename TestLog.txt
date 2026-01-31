@@ -1,0 +1,24 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.5f1 (a1ec4b2f2d19) revision 10611787'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kali" at "2026-01-30T16:15:49.5745803Z"
+OS: 'Windows 11  (10.0.26100) Core' Language: 'en' Physical Memory: 32478 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-01-30T16:15:49Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Unity.exe
+-runTests
+-batchmode
+-projectPath
+D:\Projects\GameDevelopment\Unity\Vanguard Arena
+-testResults
+D:\Projects\GameDevelopment\Unity\Vanguard Arena\TestResults.xml
+-testPlatform
+EditMode
+-logFile
+D:\Projects\GameDevelopment\Unity\Vanguard Arena\TestLog.txt
+Successfully changed project path to: D:\Projects\GameDevelopment\Unity\Vanguard Arena
+D:/Projects/GameDevelopment/Unity/Vanguard Arena
+Exiting without the bug reporter. Application will terminate with return code 1

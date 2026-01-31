@@ -1,12 +1,12 @@
 {
-    "name": "VanguardArena.Presentation",
-    "rootNamespace": "Project.Presentation",
+    "name": "VanguardArena.Editor",
+    "rootNamespace": "Project.Editor",
     "references": [
-        "VanguardArena.Domain",
-        "Unity.InputSystem",
-        "Unity.TextMeshPro"
+        "VanguardArena.Domain"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

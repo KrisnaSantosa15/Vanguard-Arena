@@ -82,5 +82,15 @@ namespace Project.Domain
 
             return converted;
         }
+        
+        /// <summary>
+        /// Reset energy to a specific value (for testing).
+        /// </summary>
+        public void Reset(int newEnergy)
+        {
+            Energy = Mathf.Clamp(newEnergy, 0, MaxEnergy);
+            EnergyBarPct = 0f;
+            FileLogger.Log($"⚡ Energy reset to {Energy}", "ENERGY");
+        }
     }
 }

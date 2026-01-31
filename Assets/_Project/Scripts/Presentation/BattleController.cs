@@ -86,6 +86,11 @@ namespace Project.Presentation
         public int PlayerEnergyValue => _playerEnergy != null ? _playerEnergy.Energy : 0;
         public int EnemyEnergyValue => _enemyEnergy != null ? _enemyEnergy.Energy : 0;
         public bool AutoModeValue => autoMode;
+        
+        // --- Test/Debug API (for PlayMode tests) ---
+        public bool IsBattleOver { get; private set; } = false;
+        public int CurrentTurn => _turnManager != null ? _turnManager.CurrentTurn : 0;
+        public BattleOutcome Outcome { get; private set; } = BattleOutcome.InProgress;
 
         private void Awake()
         {
@@ -371,6 +376,10 @@ namespace Project.Presentation
         private void LogBattleEnd(bool playerWon, int currentTurn)
         {
             FileLogger.LogSeparator("BATTLE END");
+            
+            // Set battle outcome flags
+            IsBattleOver = true;
+            Outcome = playerWon ? BattleOutcome.Victory : BattleOutcome.Defeat;
             
             // Victory/Defeat announcement
             if (playerWon)
@@ -873,6 +882,16 @@ namespace Project.Presentation
             {
                 FileLogger.Log($"Entering ATTACK/DAMAGE branch", "ULTIMATE-SINGLE");
                 
+                // Capture target position BEFORE any animation/knockback
+                Vector3 targetOriginalPos = Vector3.zero;
+                Transform targetTransform = null;
+                if (_unitManager.TryGetView(target, out var tView))
+                {
+                    targetTransform = tView.transform;
+                    targetOriginalPos = targetTransform.position;
+                    FileLogger.Log($"Target position captured BEFORE knockback: {targetOriginalPos}", "ULTIMATE-SINGLE");
+                }
+                
                 // DAMAGE LOGIC: Original behavior
                 var (dmg, isCrit) = CombatCalculator.ComputeUltimateDamage(actor, target);
                 FileLogger.Log($"Calculated damage: {dmg} (Crit: {isCrit})", "ULTIMATE-SINGLE");
@@ -883,15 +902,6 @@ namespace Project.Presentation
                 
                 target.CurrentHP = Mathf.Max(0, target.CurrentHP - shieldedDmg);
                 FileLogger.Log($"HP change: {hpBefore} -> {target.CurrentHP} (Damage dealt: {shieldedDmg})", "ULTIMATE-SINGLE");
-
-                // Knockback recovery logic
-                Vector3 targetOriginalPos = Vector3.zero;
-                Transform targetTransform = null;
-                if (_unitManager.TryGetView(target, out var tView))
-                {
-                    targetTransform = tView.transform;
-                    targetOriginalPos = targetTransform.position;
-                }
 
                 if (shieldedDmg > 0)
                 {
@@ -907,8 +917,25 @@ namespace Project.Presentation
                     yield return new WaitForSeconds(ultimateAnimationDuration * 0.3f);
                 }
 
-                // Restore target position
-                if (targetTransform != null) targetTransform.position = targetOriginalPos;
+                // Restore target position AFTER knockback animation completes
+                if (targetTransform != null)
+                {
+                    // Force target to idle state before restoring position
+                    // This prevents animation curves from interfering with position restoration
+                    var animator = targetTransform.GetComponentInChildren<Animator>();
+                    if (animator != null)
+                    {
+                        FileLogger.Log("Forcing target to idle state before position restore", "ULTIMATE-SINGLE");
+                        animator.ResetTrigger("HitUltimate");
+                        animator.ResetTrigger("HitBasic");
+                    }
+                    
+                    // Small buffer to ensure animation state change takes effect
+                    yield return new WaitForSeconds(0.1f);
+                    
+                    targetTransform.position = targetOriginalPos;
+                    FileLogger.Log($"Target position restored to: {targetOriginalPos}", "ULTIMATE-SINGLE");
+                }
             }
 
             if (actor.Type == UnitType.Melee && actorTransform != null)
@@ -1009,6 +1036,18 @@ namespace Project.Presentation
                 FileLogger.LogWarning($"NO VIEW FOUND for {actor.DisplayName}!", "ULTIMATE-MULTI");
             }
 
+            // CAPTURE TARGET POSITIONS **BEFORE** ANY MOVEMENT OR ANIMATION (FIX FOR KNOCKBACK BUG)
+            FileLogger.Log("Capturing target positions BEFORE movement/animation", "ULTIMATE-MULTI");
+            var restoreData = new List<(Transform t, Vector3 p)>();
+            foreach (var t in targets)
+            {
+                if (_unitManager.TryGetView(t, out var tv))
+                {
+                    restoreData.Add((tv.transform, tv.transform.position));
+                }
+            }
+            FileLogger.Log($"Restore data captured. Count: {restoreData.Count}", "ULTIMATE-MULTI");
+
             // Only move to center for melee attacks (not for ally support)
             if (!isAllyTargeting && actor.Type == UnitType.Melee && actorTransform != null)
             {
@@ -1074,14 +1113,7 @@ namespace Project.Presentation
             {
                 FileLogger.Log("Entering ATTACK/DAMAGE branch", "ULTIMATE-MULTI");
                 // ===== DAMAGE LOGIC: Original multi-hit behavior =====
-                // Store restore data
-                FileLogger.Log("Building restore data for target positions", "ULTIMATE-MULTI");
-                var restoreData = new List<(Transform t, Vector3 p)>();
-                foreach (var t in targets)
-                {
-                    if (_unitManager.TryGetView(t, out var tv)) restoreData.Add((tv.transform, tv.transform.position));
-                }
-                FileLogger.Log($"Restore data built. Count: {restoreData.Count}", "ULTIMATE-MULTI");
+                // (Restore data already built before movement - see line ~1020)
 
                 // Setup Event Listener for per-hit damage calculation
                 UnitAnimationDriver driver = null;
@@ -1210,10 +1242,34 @@ namespace Project.Presentation
                     driver.OnHitTriggered -= onHit;
                 }
 
+                // Force all targets to idle state before restoring positions
+                // This prevents animation curves from interfering with position restoration
+                FileLogger.Log("Forcing targets to idle state before position restore", "ULTIMATE-MULTI");
+                foreach (var t in targets)
+                {
+                    if (_unitManager.TryGetView(t, out var tv))
+                    {
+                        var animator = tv.GetComponentInChildren<Animator>();
+                        if (animator != null)
+                        {
+                            animator.ResetTrigger("HitUltimate");
+                            animator.ResetTrigger("HitBasic");
+                        }
+                    }
+                }
+                
+                // Small buffer to ensure animation state change takes effect
+                yield return new WaitForSeconds(0.1f);
+                
                 // Restore positions
+                FileLogger.Log("Restoring target positions", "ULTIMATE-MULTI");
                 foreach (var data in restoreData)
                 {
-                    if (data.t != null) data.t.position = data.p;
+                    if (data.t != null)
+                    {
+                        data.t.position = data.p;
+                        FileLogger.Log($"Position restored to: {data.p}", "ULTIMATE-MULTI");
+                    }
                 }
             }
 
@@ -1409,5 +1465,114 @@ namespace Project.Presentation
         }
 
         public ActionPreference GetActionPreference(string id) => _actionPreferences.TryGetValue(id, out var p) ? p : ActionPreference.SmartAI;
+        
+        // --- Test/Debug API ---
+        
+        /// <summary>
+        /// Initialize a battle with custom units (for testing).
+        /// This bypasses the normal Start() lineup and spawns units directly.
+        /// </summary>
+        public void InitializeBattle(List<UnitDefinitionSO> players, List<UnitDefinitionSO> enemies, int seed)
+        {
+            FileLogger.LogSeparator("TEST BATTLE INITIALIZATION");
+            FileLogger.Log($"Initializing test battle with {players.Count} players, {enemies.Count} enemies, seed={seed}", "TEST-INIT");
+            
+            // Reset state
+            IsBattleOver = false;
+            Outcome = BattleOutcome.InProgress;
+            
+        // Initialize RNG with test seed
+        _rng = new System.Random(seed);
+        
+        // Clear existing units
+        if (_unitManager != null)
+        {
+            // Stop existing battle coroutine if running
+            StopAllCoroutines();
+            
+            // Clear all existing units from scene
+            _unitManager.ClearAll();
+        }
+        else
+        {
+            _unitManager = GetComponent<BattleUnitManager>();
+            if (_unitManager == null) _unitManager = gameObject.AddComponent<BattleUnitManager>();
+        }
+        
+        // Initialize energy
+            if (_playerEnergy == null) _playerEnergy = new TeamEnergyState(maxEnergy, startEnergy);
+            if (_enemyEnergy == null) _enemyEnergy = new TeamEnergyState(maxEnergy, startEnergy);
+            
+            _playerEnergy.Reset(startEnergy);
+            _enemyEnergy.Reset(startEnergy);
+            
+            // Spawn units
+            _unitManager.SpawnTeam(players.ToArray(), playerSlots, isEnemy: false);
+            _unitManager.SpawnTeam(enemies.ToArray(), enemySlots, isEnemy: true);
+            
+            FileLogger.Log($"Units spawned: {_unitManager.AllUnits.Count} total", "TEST-INIT");
+            
+            // Don't auto-start battle - let tests control execution
+            FileLogger.Log("Test battle initialized. Call StartTestBattle() to begin.", "TEST-INIT");
+        }
+        
+        /// <summary>
+        /// Start the battle coroutine (for tests that initialized via InitializeBattle).
+        /// </summary>
+        public void StartTestBattle()
+        {
+            if (_unitManager == null || _unitManager.AllUnits.Count == 0)
+            {
+                FileLogger.LogWarning("Cannot start battle - no units spawned!");
+                return;
+            }
+            
+            FileLogger.Log("Starting test battle coroutine", "TEST");
+            StartCoroutine(BattleCoroutine());
+        }
+        
+        /// <summary>
+        /// Get all player unit views (for testing).
+        /// </summary>
+        public List<UnitView> GetPlayerUnits()
+        {
+            var views = new List<UnitView>();
+            if (_unitManager == null) return views;
+            
+            foreach (var unit in _unitManager.AllUnits)
+            {
+                if (unit != null && !unit.IsEnemy)
+                {
+                    if (_unitManager.TryGetView(unit, out var view))
+                    {
+                        views.Add(view);
+                    }
+                }
+            }
+            
+            return views;
+        }
+        
+        /// <summary>
+        /// Get all enemy unit views (for testing).
+        /// </summary>
+        public List<UnitView> GetEnemyUnits()
+        {
+            var views = new List<UnitView>();
+            if (_unitManager == null) return views;
+            
+            foreach (var unit in _unitManager.AllUnits)
+            {
+                if (unit != null && unit.IsEnemy)
+                {
+                    if (_unitManager.TryGetView(unit, out var view))
+                    {
+                        views.Add(view);
+                    }
+                }
+            }
+            
+            return views;
+        }
     }
 }

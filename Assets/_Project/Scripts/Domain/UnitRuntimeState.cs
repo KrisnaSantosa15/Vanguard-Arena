@@ -221,25 +221,45 @@ namespace Project.Domain
             else if (type == StatusEffectType.ATKUp || type == StatusEffectType.ATKDown ||
                      type == StatusEffectType.DEFUp || type == StatusEffectType.DEFDown)
             {
-                // Stat modifiers: highest magnitude wins, duration refresh
-                var existing = ActiveStatusEffects.FirstOrDefault(s => s.Type == type);
-                if (existing != null)
+                // Stat modifiers: Same magnitude stacks, different magnitude uses "higher wins" rule
+                var existingSameMagnitude = ActiveStatusEffects.FirstOrDefault(s => 
+                    s.Type == type && 
+                    !s.IsExpired && 
+                    Mathf.Approximately(s.Modifier, modifier));
+                
+                if (existingSameMagnitude != null)
                 {
-                    if (Mathf.Abs(modifier) >= Mathf.Abs(existing.Modifier))
-                    {
-                        FileLogger.Log($"   📊 {type} replaced: {existing.Modifier:P0} -> {modifier:P0}, duration={duration}", "EFFECT");
-                        existing.Modifier = modifier;
-                        existing.DurationTurns = duration;
-                    }
-                    else
-                    {
-                        FileLogger.Log($"   📊 {type} ignored (existing {existing.Modifier:P0} is stronger)", "EFFECT");
-                    }
+                    // Same magnitude: Stack (enables ramping/snowball mechanics)
+                    ActiveStatusEffects.Add(effect);
+                    int stackCount = ActiveStatusEffects.Count(s => s.Type == type && !s.IsExpired);
+                    FileLogger.Log($"   📊 {type} stacked: {modifier:P0} for {duration} turns (total: {stackCount} stacks)", "EFFECT");
                 }
                 else
                 {
-                    FileLogger.Log($"   📊 {type} applied: {modifier:P0} for {duration} turns", "EFFECT");
-                    ActiveStatusEffects.Add(effect);
+                    // Different magnitude: Check "higher wins" rule
+                    var existingDifferent = ActiveStatusEffects.FirstOrDefault(s => s.Type == type && !s.IsExpired);
+                    
+                    if (existingDifferent != null)
+                    {
+                        if (Mathf.Abs(modifier) > Mathf.Abs(existingDifferent.Modifier))
+                        {
+                            // Replace with higher magnitude
+                            FileLogger.Log($"   📊 {type} replaced: {existingDifferent.Modifier:P0} -> {modifier:P0}, duration={duration}", "EFFECT");
+                            existingDifferent.Modifier = modifier;
+                            existingDifferent.DurationTurns = duration;
+                        }
+                        else
+                        {
+                            // Ignore weaker buff
+                            FileLogger.Log($"   📊 {type} ignored (existing {existingDifferent.Modifier:P0} is stronger)", "EFFECT");
+                        }
+                    }
+                    else
+                    {
+                        // No existing buff: Add new
+                        ActiveStatusEffects.Add(effect);
+                        FileLogger.Log($"   📊 {type} applied: {modifier:P0} for {duration} turns", "EFFECT");
+                    }
                 }
             }
             else
@@ -327,6 +347,25 @@ namespace Project.Domain
             }
 
             return remainingDamage;
+        }
+
+        /// <summary>
+        /// Take damage (apply mitigation/shield then reduce HP)
+        /// </summary>
+        public void TakeDamage(int rawDamage)
+        {
+            if (rawDamage <= 0) return;
+            
+            int damageAfterShields = AbsorbDamageWithShield(rawDamage);
+            int oldHP = CurrentHP;
+            
+            // Apply damage to HP
+            CurrentHP = Mathf.Max(0, CurrentHP - damageAfterShields);
+            
+            if (damageAfterShields > 0)
+            {
+                FileLogger.Log($"⚔️ {DisplayName} took damage: {rawDamage} (raw) -> {damageAfterShields} (unshielded). HP: {oldHP} -> {CurrentHP}", "DAMAGE");
+            }
         }
 
         /// <summary>

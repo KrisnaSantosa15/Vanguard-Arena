@@ -2,6 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Project.Domain;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace VanguardArena.Tests.Utils
 {
@@ -102,6 +105,33 @@ namespace VanguardArena.Tests.Utils
             return (players, enemies, _rng);
         }
 
+        /// <summary>
+        /// Returns the UnitDefinitionSO objects directly (for PlayMode tests that need ScriptableObjects).
+        /// </summary>
+        public (List<UnitDefinitionSO> players, List<UnitDefinitionSO> enemies) BuildDefinitions()
+        {
+            return (_playerUnits, _enemyUnits);
+        }
+
+        /// <summary>
+        /// Adds a passive ability to the last added unit (builder pattern).
+        /// </summary>
+        public BattleTestBuilder WithPassive(PassiveAbility passive)
+        {
+            if (_playerUnits.Count > 0 && _enemyUnits.Count == 0)
+            {
+                // Apply to last player unit
+                _playerUnits[_playerUnits.Count - 1].Passive = passive;
+            }
+            else if (_enemyUnits.Count > 0)
+            {
+                // Apply to last enemy unit
+                _enemyUnits[_enemyUnits.Count - 1].Passive = passive;
+            }
+            
+            return this;
+        }
+
         private UnitDefinitionSO CreateUnitDefinition(
             string displayName,
             UnitType type,
@@ -135,6 +165,16 @@ namespace VanguardArena.Tests.Utils
             unit.UltimateSkillDescription = "Test ultimate";
             unit.PassiveName = "Test Passive";
             unit.PassiveDescription = "Test passive description";
+            
+            // Load the default unit prefab for PlayMode tests
+            unit.UnitViewPrefab = UnityEngine.Resources.Load<GameObject>("UnitAnimated");
+            if (unit.UnitViewPrefab == null)
+            {
+                // Fallback: try loading from Assets path (for when Resources folder doesn't exist)
+                #if UNITY_EDITOR
+                unit.UnitViewPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/_Project/Prefabs/Units/UnitAnimated.prefab");
+                #endif
+            }
             
             return unit;
         }

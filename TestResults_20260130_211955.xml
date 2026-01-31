@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="15" result="Failed(Child)" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.5511523">
+  <test-suite type="TestSuite" id="1027" name="Vanguard Arena" fullname="Vanguard Arena" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.551152" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1022" name="VanguardArena.Tests.PlayMode.dll" fullname="D:/Projects/GameDevelopment/Unity/Vanguard Arena/Library/ScriptAssemblies/VanguardArena.Tests.PlayMode.dll" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.536371" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24396" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1023" name="VanguardArena" fullname="VanguardArena" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.526942" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1024" name="Tests" fullname="VanguardArena.Tests" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.519175" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1025" name="PlayMode" fullname="VanguardArena.Tests.PlayMode" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.509301" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestSuite" id="1026" name="Integration" fullname="VanguardArena.Tests.PlayMode.Integration" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:46:23Z" duration="42.502395" total="15" passed="13" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="TestFixture" id="1004" name="AnimationSystemTests" fullname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests" classname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:45:42Z" duration="1.382199" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1007" name="AnimationTestHelper_GetCurrentClipName_ReturnsNoneForEmpty" fullname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests.AnimationTestHelper_GetCurrentClipName_ReturnsNoneForEmpty" methodname="AnimationTestHelper_GetCurrentClipName_ReturnsNoneForEmpty" classname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests" runstate="Runnable" seed="2077867730" result="Passed" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:45:41Z" duration="0.477186" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:45:41.316] [INFO] HUD root children=1 names: root
+[23:45:41.319] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:45:41.319] [HUD] HUD doc VTA = BattleHUD
+[23:45:41.326] [INIT] BattleController initialized
+[23:45:41.350] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:45:41.351] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:45:41.352] [SPAWN] Spawning 6 units for PLAYER team
+[23:45:41.352] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:45:41.362] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:45:41.363] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:45:41.368] [COLOR] Applied BLUE (Player) to Aurelius
+[23:45:41.368] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:45:41.369] [SPAWN] View bound successfully for Aurelius
+[23:45:41.369] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:45:41.369] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:45:41.370] [INDICATOR] Created default visual for PL_Elara_1
+[23:45:41.370] [COLOR] Applied BLUE (Player) to Elara
+[23:45:41.370] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:45:41.370] [SPAWN] View bound successfully for Elara
+[23:45:41.370] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:45:41.370] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:45:41.371] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:45:41.371] [COLOR] Applied BLUE (Player) to Malzahar
+[23:45:41.371] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:45:41.371] [SPAWN] View bound successfully for Malzahar
+[23:45:41.371] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:45:41.371] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:45:41.371] [INDICATOR] Created default visual for PL_Aegis_3
+[23:45:41.373] [COLOR] Applied BLUE (Player) to Aegis
+[23:45:41.373] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:45:41.373] [SPAWN] View bound successfully for Aegis
+[23:45:41.373] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:45:41.373] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:45:41.373] [INDICATOR] Created default visual for PL_Gorok_4
+[23:45:41.373] [COLOR] Applied BLUE (Player) to Gorok
+[23:45:41.373] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:45:41.374] [SPAWN] View bound successfully for Gorok
+[23:45:41.374] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:45:41.374] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:45:41.374] [INDICATOR] Created default visual for PL_Artemis_5
+[23:45:41.374] [COLOR] Applied BLUE (Player) to Artemis
+[23:45:41.374] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:45:41.374] [SPAWN] View bound successfully for Artemis
+[23:45:41.374] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:45:41.374] [SPAWN] Spawning 6 units for ENEMY team
+[23:45:41.374] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:45:41.376] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:45:41.377] [INDICATOR] Created default visual for EN_Lumina_0
+[23:45:41.377] [COLOR] Applied RED (Enemy) to Lumina
+[23:45:41.377] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:45:41.377] [SPAWN] View bound successfully for Lumina
+[23:45:41.377] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:45:41.378] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:45:41.378] [INDICATOR] Created default visual for EN_Merlin_1
+[23:45:41.378] [COLOR] Applied RED (Enemy) to Merlin
+[23:45:41.378] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:45:41.378] [SPAWN] View bound successfully for Merlin
+[23:45:41.378] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:45:41.379] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:45:41.379] [INDICATOR] Created default visual for EN_Mortis_2
+[23:45:41.380] [COLOR] Applied RED (Enemy) to Mortis
+[23:45:41.380] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:45:41.380] [SPAWN] View bound successfully for Mortis
+[23:45:41.380] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:45:41.380] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:45:41.380] [INDICATOR] Created default visual for EN_Kaito_3
+[23:45:41.381] [COLOR] Applied RED (Enemy) to Kaito
+[23:45:41.381] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:45:41.381] [SPAWN] View bound successfully for Kaito
+[23:45:41.381] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:45:41.382] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:45:41.382] [INDICATOR] Created default visual for EN_Kuro_4
+[23:45:41.383] [COLOR] Applied RED (Enemy) to Kuro
+[23:45:41.383] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:45:41.383] [SPAWN] View bound successfully for Kuro
+[23:45:41.383] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:45:41.383] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:45:41.383] [INDICATOR] Created default visual for EN_Draven_5
+[23:45:41.384] [COLOR] Applied RED (Enemy) to Draven
+[23:45:41.384] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:45:41.384] [SPAWN] View bound successfully for Draven
+[23:45:41.384] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:41.384] [INIT] All units spawned. Total units: 12
+[23:45:41.384] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.384] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:45:41.386] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:45:41.386] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:45:41.386] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.387] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:45:41.387] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.387] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:45:41.387] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.387] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:45:41.387] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.387] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:45:41.387] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.387] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:45:41.387] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.387] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:45:41.387] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.388] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:45:41.388] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:45:41.388] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:41.388] [PASSIVE]    Targeting self: Kuro
+[23:45:41.388] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:45:41.389] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.389] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:45:41.390] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:45:41.390] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:41.392] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:41.392] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:41.392] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:41.392] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.392] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:41.392] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.392] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:41.392] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.392] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:41.394] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.394] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:41.394] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.394] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:41.394] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.394] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:41.394] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.394] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:41.394] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:45:41.395] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:41.395] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:41.395] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:41.397] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:45:41.397] [BASIC] Moving Kaito to target position (Melee)
+[23:45:41.610] [ENERGY] ⚡ Energy gained: 2 -> 3 (+1)
+[23:45:41.610] [BASIC] Number of hits: 1 (Range: 1-2)
+[23:45:41.610] [BASIC] --- Hit 1/1 ---
+Animator is not playing an AnimatorController
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1006" name="AnimationTestHelper_HasParameter_DetectsParameters" fullname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests.AnimationTestHelper_HasParameter_DetectsParameters" methodname="AnimationTestHelper_HasParameter_DetectsParameters" classname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests" runstate="Runnable" seed="1932690144" result="Passed" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:45:41Z" duration="0.173431" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:45:41.722] [INFO] HUD root children=1 names: root
+[23:45:41.722] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:45:41.722] [HUD] HUD doc VTA = BattleHUD
+[23:45:41.722] [INIT] BattleController initialized
+[23:45:41.726] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:45:41.726] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:45:41.726] [SPAWN] Spawning 6 units for PLAYER team
+[23:45:41.726] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:45:41.727] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:45:41.727] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:45:41.727] [COLOR] Applied BLUE (Player) to Aurelius
+[23:45:41.727] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:45:41.727] [SPAWN] View bound successfully for Aurelius
+[23:45:41.728] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:45:41.728] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:45:41.728] [INDICATOR] Created default visual for PL_Elara_1
+[23:45:41.728] [COLOR] Applied BLUE (Player) to Elara
+[23:45:41.728] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:45:41.730] [SPAWN] View bound successfully for Elara
+[23:45:41.730] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:45:41.730] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:45:41.730] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:45:41.730] [COLOR] Applied BLUE (Player) to Malzahar
+[23:45:41.732] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:45:41.732] [SPAWN] View bound successfully for Malzahar
+[23:45:41.732] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:45:41.732] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:45:41.733] [INDICATOR] Created default visual for PL_Aegis_3
+[23:45:41.733] [COLOR] Applied BLUE (Player) to Aegis
+[23:45:41.733] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:45:41.733] [SPAWN] View bound successfully for Aegis
+[23:45:41.733] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:45:41.733] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:45:41.734] [INDICATOR] Created default visual for PL_Gorok_4
+[23:45:41.734] [COLOR] Applied BLUE (Player) to Gorok
+[23:45:41.734] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:45:41.734] [SPAWN] View bound successfully for Gorok
+[23:45:41.734] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:45:41.735] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:45:41.735] [INDICATOR] Created default visual for PL_Artemis_5
+[23:45:41.735] [COLOR] Applied BLUE (Player) to Artemis
+[23:45:41.735] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:45:41.735] [SPAWN] View bound successfully for Artemis
+[23:45:41.735] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:45:41.735] [SPAWN] Spawning 6 units for ENEMY team
+[23:45:41.735] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:45:41.737] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:45:41.737] [INDICATOR] Created default visual for EN_Lumina_0
+[23:45:41.737] [COLOR] Applied RED (Enemy) to Lumina
+[23:45:41.737] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:45:41.737] [SPAWN] View bound successfully for Lumina
+[23:45:41.737] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:45:41.738] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:45:41.738] [INDICATOR] Created default visual for EN_Merlin_1
+[23:45:41.739] [COLOR] Applied RED (Enemy) to Merlin
+[23:45:41.739] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:45:41.739] [SPAWN] View bound successfully for Merlin
+[23:45:41.739] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:45:41.740] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:45:41.740] [INDICATOR] Created default visual for EN_Mortis_2
+[23:45:41.740] [COLOR] Applied RED (Enemy) to Mortis
+[23:45:41.741] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:45:41.741] [SPAWN] View bound successfully for Mortis
+[23:45:41.741] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:45:41.741] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:45:41.741] [INDICATOR] Created default visual for EN_Kaito_3
+[23:45:41.741] [COLOR] Applied RED (Enemy) to Kaito
+[23:45:41.741] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:45:41.742] [SPAWN] View bound successfully for Kaito
+[23:45:41.742] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:45:41.742] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:45:41.742] [INDICATOR] Created default visual for EN_Kuro_4
+[23:45:41.742] [COLOR] Applied RED (Enemy) to Kuro
+[23:45:41.742] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:45:41.744] [SPAWN] View bound successfully for Kuro
+[23:45:41.744] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:45:41.744] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:45:41.744] [INDICATOR] Created default visual for EN_Draven_5
+[23:45:41.745] [COLOR] Applied RED (Enemy) to Draven
+[23:45:41.745] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:45:41.745] [SPAWN] View bound successfully for Draven
+[23:45:41.745] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:41.745] [INIT] All units spawned. Total units: 12
+[23:45:41.745] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.745] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:45:41.745] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:45:41.745] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:45:41.745] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.745] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:45:41.745] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.745] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:45:41.745] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.745] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:45:41.746] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.746] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:45:41.746] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.746] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:45:41.746] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.746] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:45:41.746] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.746] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:45:41.746] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:45:41.747] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:41.747] [PASSIVE]    Targeting self: Kuro
+[23:45:41.747] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:45:41.747] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.747] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:45:41.747] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:45:41.747] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:41.747] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:41.747] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:41.747] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:41.747] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.747] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:41.749] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.749] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:41.749] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.749] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:41.749] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.749] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:41.749] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.749] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:41.749] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.750] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:41.750] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.750] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:41.750] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:45:41.750] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:41.750] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:41.751] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:41.751] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:45:41.751] [BASIC] Moving Kaito to target position (Melee)
+Animator is not playing an AnimatorController
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1005" name="AnimationTestHelper_WaitForAnimationState_Works" fullname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests.AnimationTestHelper_WaitForAnimationState_Works" methodname="AnimationTestHelper_WaitForAnimationState_Works" classname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests" runstate="Runnable" seed="90488251" result="Passed" start-time="2026-01-30 16:45:41Z" end-time="2026-01-30 16:45:42Z" duration="0.595451" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <reason>
+                    <message><![CDATA[Animation helper timeout works correctly]]></message>
+                  </reason>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:45:41.892] [INFO] HUD root children=1 names: root
+[23:45:41.893] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:45:41.893] [HUD] HUD doc VTA = BattleHUD
+[23:45:41.893] [INIT] BattleController initialized
+[23:45:41.896] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:45:41.896] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:45:41.896] [SPAWN] Spawning 6 units for PLAYER team
+[23:45:41.896] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:45:41.897] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:45:41.898] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:45:41.898] [COLOR] Applied BLUE (Player) to Aurelius
+[23:45:41.898] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:45:41.898] [SPAWN] View bound successfully for Aurelius
+[23:45:41.898] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:45:41.898] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:45:41.899] [INDICATOR] Created default visual for PL_Elara_1
+[23:45:41.899] [COLOR] Applied BLUE (Player) to Elara
+[23:45:41.900] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:45:41.900] [SPAWN] View bound successfully for Elara
+[23:45:41.900] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:45:41.900] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:45:41.901] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:45:41.901] [COLOR] Applied BLUE (Player) to Malzahar
+[23:45:41.901] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:45:41.901] [SPAWN] View bound successfully for Malzahar
+[23:45:41.901] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:45:41.902] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:45:41.902] [INDICATOR] Created default visual for PL_Aegis_3
+[23:45:41.902] [COLOR] Applied BLUE (Player) to Aegis
+[23:45:41.902] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:45:41.902] [SPAWN] View bound successfully for Aegis
+[23:45:41.902] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:45:41.902] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:45:41.903] [INDICATOR] Created default visual for PL_Gorok_4
+[23:45:41.903] [COLOR] Applied BLUE (Player) to Gorok
+[23:45:41.903] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:45:41.903] [SPAWN] View bound successfully for Gorok
+[23:45:41.903] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:45:41.904] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:45:41.904] [INDICATOR] Created default visual for PL_Artemis_5
+[23:45:41.905] [COLOR] Applied BLUE (Player) to Artemis
+[23:45:41.905] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:45:41.905] [SPAWN] View bound successfully for Artemis
+[23:45:41.905] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:45:41.905] [SPAWN] Spawning 6 units for ENEMY team
+[23:45:41.905] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:45:41.906] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:45:41.906] [INDICATOR] Created default visual for EN_Lumina_0
+[23:45:41.906] [COLOR] Applied RED (Enemy) to Lumina
+[23:45:41.906] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:45:41.906] [SPAWN] View bound successfully for Lumina
+[23:45:41.906] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:45:41.907] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:45:41.907] [INDICATOR] Created default visual for EN_Merlin_1
+[23:45:41.907] [COLOR] Applied RED (Enemy) to Merlin
+[23:45:41.907] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:45:41.907] [SPAWN] View bound successfully for Merlin
+[23:45:41.907] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:45:41.908] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:45:41.909] [INDICATOR] Created default visual for EN_Mortis_2
+[23:45:41.909] [COLOR] Applied RED (Enemy) to Mortis
+[23:45:41.909] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:45:41.910] [SPAWN] View bound successfully for Mortis
+[23:45:41.910] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:45:41.910] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:45:41.910] [INDICATOR] Created default visual for EN_Kaito_3
+[23:45:41.911] [COLOR] Applied RED (Enemy) to Kaito
+[23:45:41.911] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:45:41.911] [SPAWN] View bound successfully for Kaito
+[23:45:41.911] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:45:41.911] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:45:41.912] [INDICATOR] Created default visual for EN_Kuro_4
+[23:45:41.912] [COLOR] Applied RED (Enemy) to Kuro
+[23:45:41.912] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:45:41.912] [SPAWN] View bound successfully for Kuro
+[23:45:41.912] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:45:41.912] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:45:41.912] [INDICATOR] Created default visual for EN_Draven_5
+[23:45:41.913] [COLOR] Applied RED (Enemy) to Draven
+[23:45:41.913] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:45:41.913] [SPAWN] View bound successfully for Draven
+[23:45:41.913] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:41.914] [INIT] All units spawned. Total units: 12
+[23:45:41.914] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.914] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:45:41.914] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:45:41.914] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:45:41.914] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.914] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:45:41.914] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.914] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:45:41.914] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.914] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:45:41.914] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.914] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:45:41.914] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.914] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:45:41.915] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.915] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:45:41.915] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:41.915] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:45:41.915] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:45:41.915] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:41.915] [PASSIVE]    Targeting self: Kuro
+[23:45:41.915] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:45:41.915] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.915] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:45:41.915] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:45:41.915] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:41.916] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:41.916] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:41.916] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:41.916] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:41.916] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:41.916] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.916] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:41.916] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.916] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:41.916] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.916] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:41.916] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.916] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:41.916] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.916] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:41.916] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:41.917] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:41.917] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:45:41.917] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:41.917] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:41.917] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:41.917] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:45:41.917] [BASIC] Moving Kaito to target position (Melee)
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+[23:45:42.199] [ENERGY] ⚡ Energy gained: 2 -> 3 (+1)
+[23:45:42.199] [BASIC] Number of hits: 1 (Range: 1-2)
+[23:45:42.199] [BASIC] --- Hit 1/1 ---
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+Animator is not playing an AnimatorController
+[TEST] Animation state 'NonExistentState' not reached within 0.5s
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1008" name="UnitView_HasAnimator_Configured" fullname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests.UnitView_HasAnimator_Configured" methodname="UnitView_HasAnimator_Configured" classname="VanguardArena.Tests.PlayMode.Integration.AnimationSystemTests" runstate="Runnable" seed="1648703306" result="Passed" start-time="2026-01-30 16:45:42Z" end-time="2026-01-30 16:45:42Z" duration="0.116540" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:45:42.489] [INFO] HUD root children=1 names: root
+[23:45:42.489] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:45:42.490] [HUD] HUD doc VTA = BattleHUD
+[23:45:42.490] [INIT] BattleController initialized
+[23:45:42.493] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:45:42.493] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:45:42.493] [SPAWN] Spawning 6 units for PLAYER team
+[23:45:42.493] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:45:42.494] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:45:42.494] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:45:42.494] [COLOR] Applied BLUE (Player) to Aurelius
+[23:45:42.494] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:45:42.494] [SPAWN] View bound successfully for Aurelius
+[23:45:42.494] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:45:42.495] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:45:42.495] [INDICATOR] Created default visual for PL_Elara_1
+[23:45:42.495] [COLOR] Applied BLUE (Player) to Elara
+[23:45:42.495] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:45:42.495] [SPAWN] View bound successfully for Elara
+[23:45:42.496] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:45:42.496] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:45:42.496] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:45:42.496] [COLOR] Applied BLUE (Player) to Malzahar
+[23:45:42.496] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:45:42.496] [SPAWN] View bound successfully for Malzahar
+[23:45:42.496] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:45:42.498] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:45:42.498] [INDICATOR] Created default visual for PL_Aegis_3
+[23:45:42.498] [COLOR] Applied BLUE (Player) to Aegis
+[23:45:42.498] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:45:42.498] [SPAWN] View bound successfully for Aegis
+[23:45:42.498] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:45:42.499] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:45:42.499] [INDICATOR] Created default visual for PL_Gorok_4
+[23:45:42.499] [COLOR] Applied BLUE (Player) to Gorok
+[23:45:42.499] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:45:42.499] [SPAWN] View bound successfully for Gorok
+[23:45:42.499] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:45:42.501] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:45:42.501] [INDICATOR] Created default visual for PL_Artemis_5
+[23:45:42.501] [COLOR] Applied BLUE (Player) to Artemis
+[23:45:42.501] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:45:42.501] [SPAWN] View bound successfully for Artemis
+[23:45:42.501] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:45:42.501] [SPAWN] Spawning 6 units for ENEMY team
+[23:45:42.501] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:45:42.502] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:45:42.502] [INDICATOR] Created default visual for EN_Lumina_0
+[23:45:42.502] [COLOR] Applied RED (Enemy) to Lumina
+[23:45:42.502] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:45:42.502] [SPAWN] View bound successfully for Lumina
+[23:45:42.502] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:45:42.503] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:45:42.503] [INDICATOR] Created default visual for EN_Merlin_1
+[23:45:42.503] [COLOR] Applied RED (Enemy) to Merlin
+[23:45:42.503] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:45:42.503] [SPAWN] View bound successfully for Merlin
+[23:45:42.503] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:45:42.505] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:45:42.505] [INDICATOR] Created default visual for EN_Mortis_2
+[23:45:42.505] [COLOR] Applied RED (Enemy) to Mortis
+[23:45:42.505] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:45:42.505] [SPAWN] View bound successfully for Mortis
+[23:45:42.505] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:45:42.506] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:45:42.506] [INDICATOR] Created default visual for EN_Kaito_3
+[23:45:42.506] [COLOR] Applied RED (Enemy) to Kaito
+[23:45:42.506] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:45:42.506] [SPAWN] View bound successfully for Kaito
+[23:45:42.506] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:45:42.507] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:45:42.508] [INDICATOR] Created default visual for EN_Kuro_4
+[23:45:42.508] [COLOR] Applied RED (Enemy) to Kuro
+[23:45:42.508] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:45:42.508] [SPAWN] View bound successfully for Kuro
+[23:45:42.508] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:45:42.508] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:45:42.508] [INDICATOR] Created default visual for EN_Draven_5
+[23:45:42.509] [COLOR] Applied RED (Enemy) to Draven
+[23:45:42.509] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:45:42.509] [SPAWN] View bound successfully for Draven
+[23:45:42.509] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:42.509] [INIT] All units spawned. Total units: 12
+[23:45:42.509] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.509] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:45:42.509] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:45:42.509] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:45:42.509] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.509] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:45:42.509] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.509] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:45:42.509] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.510] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:45:42.510] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.510] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:45:42.510] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.510] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:45:42.510] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.510] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:45:42.511] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.511] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:45:42.511] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:45:42.511] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:42.511] [PASSIVE]    Targeting self: Kuro
+[23:45:42.511] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:45:42.511] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.511] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:45:42.511] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:45:42.511] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:42.511] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:42.511] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:42.512] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:42.512] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.512] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:42.512] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.512] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:42.512] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.512] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:42.512] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.512] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:42.512] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.512] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:42.512] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.513] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:42.513] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.513] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:42.513] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:45:42.513] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:42.513] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:42.513] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:42.513] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:45:42.513] [BASIC] Moving Kaito to target position (Melee)
+[TEST] Starting battle with 1 players, 0 enemies, seed=999
+[23:45:42.554] [TEST-INIT] Initializing test battle with 1 players, 0 enemies, seed=999
+[23:45:42.554] [ENERGY] ⚡ Energy reset to 2
+[23:45:42.554] [ENERGY] ⚡ Energy reset to 2
+[23:45:42.554] [SPAWN] Spawning 1 units for PLAYER team
+[23:45:42.554] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:45:42.554] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:42.554] [SPAWN] Spawning 0 units for ENEMY team
+[23:45:42.556] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:42.556] [TEST-INIT] Units spawned: 12 total
+[23:45:42.556] [TEST-INIT] Test battle initialized. Call StartTestBattle() to begin.
+[23:45:42.556] [TEST] Starting test battle coroutine
+[23:45:42.556] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:42.556] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:42.556] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:42.556] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:42.557] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.557] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:42.557] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.557] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:42.557] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.557] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:42.557] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.558] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:42.558] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.558] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:42.558] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.558] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:42.558] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.558] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:42.558] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 1
+[23:45:42.558] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:42.559] [INFO]  Enemy Kaito energy consumed: 2. Before: 2
+[23:45:42.559] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:42.560] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:42.560] [ULTIMATE] Kaito proceeding with 1 target(s). Routing to Single handler.
+[23:45:42.561] [ULTIMATE-SINGLE] 💥 Kaito -> Aurelius (ATTACK)
+[23:45:42.561] [ULTIMATE-SINGLE] Actor: ATK=20, Type=Melee
+[23:45:42.561] [ULTIMATE-SINGLE] Target: HP=165/165, DEF=18
+[23:45:42.561] [ULTIMATE-SINGLE] Actor transform found: EN_Kaito_3
+[23:45:42.562] [ULTIMATE-SINGLE] Moving melee unit to target
+[TEST] Battle started. IsBattleOver=False
+[TEST] Unit has Animator with controller: True
+[TEST] Unit has UnitAnimationDriver
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1009" name="BattleControllerBasicTests" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2026-01-30 16:45:42Z" end-time="2026-01-30 16:46:23Z" duration="40.608634" total="6" passed="4" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1015" name="BattleController_AllEnemiesDead_VictoryTriggered" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests.BattleController_AllEnemiesDead_VictoryTriggered" methodname="BattleController_AllEnemiesDead_VictoryTriggered" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" seed="38285400" result="Failed" start-time="2026-01-30 16:45:42Z" end-time="2026-01-30 16:46:12Z" duration="30.100279" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Battle should be over
+  Expected: True
+  But was:  False
+]]></message>
+                    <stack-trace><![CDATA[at VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests+<BattleController_AllEnemiesDead_VictoryTriggered>d__8.MoveNext () [0x000dd] in D:\Projects\GameDevelopment\Unity\Vanguard Arena\Assets\_Project\Tests\PlayMode\Integration\BattleControllerBasicTests.cs:139
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:45:42.612] [INFO] HUD root children=1 names: root
+[23:45:42.613] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:45:42.613] [HUD] HUD doc VTA = BattleHUD
+[23:45:42.613] [INIT] BattleController initialized
+[23:45:42.616] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:45:42.616] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:45:42.616] [SPAWN] Spawning 6 units for PLAYER team
+[23:45:42.616] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:45:42.617] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:45:42.617] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:45:42.618] [COLOR] Applied BLUE (Player) to Aurelius
+[23:45:42.618] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:45:42.618] [SPAWN] View bound successfully for Aurelius
+[23:45:42.618] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:45:42.619] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:45:42.619] [INDICATOR] Created default visual for PL_Elara_1
+[23:45:42.619] [COLOR] Applied BLUE (Player) to Elara
+[23:45:42.619] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:45:42.619] [SPAWN] View bound successfully for Elara
+[23:45:42.619] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:45:42.620] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:45:42.620] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:45:42.620] [COLOR] Applied BLUE (Player) to Malzahar
+[23:45:42.621] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:45:42.621] [SPAWN] View bound successfully for Malzahar
+[23:45:42.621] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:45:42.621] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:45:42.621] [INDICATOR] Created default visual for PL_Aegis_3
+[23:45:42.621] [COLOR] Applied BLUE (Player) to Aegis
+[23:45:42.621] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:45:42.623] [SPAWN] View bound successfully for Aegis
+[23:45:42.623] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:45:42.623] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:45:42.623] [INDICATOR] Created default visual for PL_Gorok_4
+[23:45:42.624] [COLOR] Applied BLUE (Player) to Gorok
+[23:45:42.624] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:45:42.624] [SPAWN] View bound successfully for Gorok
+[23:45:42.624] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:45:42.624] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:45:42.624] [INDICATOR] Created default visual for PL_Artemis_5
+[23:45:42.624] [COLOR] Applied BLUE (Player) to Artemis
+[23:45:42.625] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:45:42.625] [SPAWN] View bound successfully for Artemis
+[23:45:42.625] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:45:42.625] [SPAWN] Spawning 6 units for ENEMY team
+[23:45:42.625] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:45:42.625] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:45:42.625] [INDICATOR] Created default visual for EN_Lumina_0
+[23:45:42.625] [COLOR] Applied RED (Enemy) to Lumina
+[23:45:42.625] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:45:42.627] [SPAWN] View bound successfully for Lumina
+[23:45:42.627] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:45:42.627] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:45:42.627] [INDICATOR] Created default visual for EN_Merlin_1
+[23:45:42.627] [COLOR] Applied RED (Enemy) to Merlin
+[23:45:42.627] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:45:42.628] [SPAWN] View bound successfully for Merlin
+[23:45:42.628] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:45:42.628] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:45:42.628] [INDICATOR] Created default visual for EN_Mortis_2
+[23:45:42.628] [COLOR] Applied RED (Enemy) to Mortis
+[23:45:42.628] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:45:42.628] [SPAWN] View bound successfully for Mortis
+[23:45:42.628] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:45:42.630] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:45:42.630] [INDICATOR] Created default visual for EN_Kaito_3
+[23:45:42.630] [COLOR] Applied RED (Enemy) to Kaito
+[23:45:42.630] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:45:42.630] [SPAWN] View bound successfully for Kaito
+[23:45:42.630] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:45:42.631] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:45:42.631] [INDICATOR] Created default visual for EN_Kuro_4
+[23:45:42.631] [COLOR] Applied RED (Enemy) to Kuro
+[23:45:42.631] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:45:42.631] [SPAWN] View bound successfully for Kuro
+[23:45:42.631] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:45:42.633] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:45:42.633] [INDICATOR] Created default visual for EN_Draven_5
+[23:45:42.633] [COLOR] Applied RED (Enemy) to Draven
+[23:45:42.633] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:45:42.633] [SPAWN] View bound successfully for Draven
+[23:45:42.633] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:42.633] [INIT] All units spawned. Total units: 12
+[23:45:42.633] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.634] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:45:42.634] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:45:42.634] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:45:42.634] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.634] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:45:42.634] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.634] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:45:42.634] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.634] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:45:42.634] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.634] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:45:42.634] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.634] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:45:42.634] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.635] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:45:42.635] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:45:42.635] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:45:42.635] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:45:42.635] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:42.635] [PASSIVE]    Targeting self: Kuro
+[23:45:42.635] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:45:42.635] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.635] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:45:42.635] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:45:42.635] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:42.635] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:42.635] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:42.635] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:42.635] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.635] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:42.635] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.636] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:42.636] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.636] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:42.636] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.636] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:42.636] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.636] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:42.636] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.636] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:42.636] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:45:42.636] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:42.636] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:45:42.636] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:42.636] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:42.636] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:42.638] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:45:42.638] [BASIC] Moving Kaito to target position (Melee)
+[TEST] Starting battle with 1 players, 1 enemies, seed=999
+[23:45:42.673] [TEST-INIT] Initializing test battle with 1 players, 1 enemies, seed=999
+[23:45:42.673] [ENERGY] ⚡ Energy reset to 2
+[23:45:42.673] [ENERGY] ⚡ Energy reset to 2
+[23:45:42.673] [SPAWN] Spawning 1 units for PLAYER team
+[23:45:42.674] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:45:42.674] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:42.674] [SPAWN] Spawning 1 units for ENEMY team
+[23:45:42.674] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:45:42.674] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:45:42.674] [TEST-INIT] Units spawned: 12 total
+[23:45:42.674] [TEST-INIT] Test battle initialized. Call StartTestBattle() to begin.
+[23:45:42.674] [TEST] Starting test battle coroutine
+[23:45:42.674] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:45:42.674] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:45:42.674] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:45:42.674] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:45:42.674] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:45:42.674] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:45:42.674] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.676] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:45:42.676] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.676] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:45:42.676] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.676] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:45:42.676] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.676] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:45:42.676] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.676] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:45:42.676] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:45:42.676] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:45:42.676] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 1
+[23:45:42.676] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:45:42.676] [INFO]  Enemy Kaito energy consumed: 2. Before: 2
+[23:45:42.677] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:45:42.677] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:45:42.677] [ULTIMATE] Kaito proceeding with 1 target(s). Routing to Single handler.
+[23:45:42.677] [ULTIMATE-SINGLE] 💥 Kaito -> Aurelius (ATTACK)
+[23:45:42.677] [ULTIMATE-SINGLE] Actor: ATK=20, Type=Melee
+[23:45:42.677] [ULTIMATE-SINGLE] Target: HP=165/165, DEF=18
+[23:45:42.677] [ULTIMATE-SINGLE] Actor transform found: EN_Kaito_3
+[23:45:42.678] [ULTIMATE-SINGLE] Moving melee unit to target
+[TEST] Battle started. IsBattleOver=False
+[TEST] Waiting for battle to end (timeout=30s)...
+[23:45:43.962] [ULTIMATE-SINGLE] Ultimate cooldown started: 2 turns
+[23:45:43.962] [ULTIMATE-SINGLE] Entering ATTACK/DAMAGE branch
+[23:45:43.963] [ULTIMATE-SINGLE] Calculated damage: 42 (Crit: False)
+[23:45:43.963] [SHIELD] 🛡️ Aurelius has 1 active shield(s). Incoming damage: 42
+[23:45:43.963] [SHIELD]    Shield BROKEN: 30 -> 0 (blocked 30 dmg, 12 penetrates)
+[23:45:43.963] [SHIELD]    Removed 1 broken shield(s) from Aurelius
+[23:45:43.963] [SHIELD] 🛡️ Shield result: 42 dmg -> 12 dmg (absorbed 30)
+[23:45:43.963] [ULTIMATE-SINGLE] After shield: 12 damage penetrates
+[23:45:43.963] [ULTIMATE-SINGLE] HP change: 165 -> 153 (Damage dealt: 12)
+[23:45:43.963] [ULTIMATE-SINGLE] Damage dealt: playing hit animation
+[23:45:44.566] [ULTIMATE-SINGLE] Moving back to original position
+[23:45:44.936] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:45:44.936] [ULTIMATE-SINGLE] Ultimate single complete
+[23:45:44.937] [DEBUG] Checking victory conditions - Player team dead: False, Enemy team dead: False
+[23:45:45.188] [TURN] Unit: Artemis, IsEnemy: False, HP: 70/70, Energy: 2
+[23:45:45.188] [TURN] ATK: 15, DEF: 4, SPD: 14, Type: Ranged
+[23:45:45.188] [EFFECT-TICK]    Shield duration: 99 -> 98
+[23:45:45.190] [EFFECT-EXPIRE] ❌ Artemis lost 2 effect(s): ATKUp, ATKUp
+[23:45:45.191] [INDICATOR] Showing YELLOW ring for PL_Artemis_5
+[TEST] Battle did not end within 30s timeout! Current turn: 1
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1012" name="BattleController_EnergyProperties_AreAccessible" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests.BattleController_EnergyProperties_AreAccessible" methodname="BattleController_EnergyProperties_AreAccessible" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" seed="721829037" result="Passed" start-time="2026-01-30 16:46:12Z" end-time="2026-01-30 16:46:12Z" duration="0.095897" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:12.715] [INFO] HUD root children=1 names: root
+[23:46:12.715] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:12.715] [HUD] HUD doc VTA = BattleHUD
+[23:46:12.716] [INIT] BattleController initialized
+[23:46:12.719] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:12.719] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:12.719] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:12.719] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:12.720] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:12.720] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:12.720] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:12.720] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:12.720] [SPAWN] View bound successfully for Aurelius
+[23:46:12.720] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:12.721] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:12.721] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:12.722] [COLOR] Applied BLUE (Player) to Elara
+[23:46:12.722] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:12.722] [SPAWN] View bound successfully for Elara
+[23:46:12.722] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:12.722] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:12.723] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:12.723] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:12.723] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:12.723] [SPAWN] View bound successfully for Malzahar
+[23:46:12.723] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:12.723] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:12.723] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:12.725] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:12.725] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:12.725] [SPAWN] View bound successfully for Aegis
+[23:46:12.725] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:12.725] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:12.725] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:12.726] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:12.726] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:12.726] [SPAWN] View bound successfully for Gorok
+[23:46:12.726] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:12.726] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:12.727] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:12.727] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:12.727] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:12.727] [SPAWN] View bound successfully for Artemis
+[23:46:12.727] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:12.727] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:12.727] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:12.728] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:12.728] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:12.728] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:12.728] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:12.729] [SPAWN] View bound successfully for Lumina
+[23:46:12.729] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:12.730] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:12.730] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:12.730] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:12.730] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:12.730] [SPAWN] View bound successfully for Merlin
+[23:46:12.730] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:12.731] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:12.731] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:12.732] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:12.732] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:12.732] [SPAWN] View bound successfully for Mortis
+[23:46:12.732] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:12.732] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:12.732] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:12.732] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:12.732] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:12.732] [SPAWN] View bound successfully for Kaito
+[23:46:12.732] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:12.734] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:12.734] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:12.734] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:12.734] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:12.735] [SPAWN] View bound successfully for Kuro
+[23:46:12.735] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:12.735] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:12.735] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:12.735] [COLOR] Applied RED (Enemy) to Draven
+[23:46:12.735] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:12.735] [SPAWN] View bound successfully for Draven
+[23:46:12.735] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:12.736] [INIT] All units spawned. Total units: 12
+[23:46:12.736] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.736] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:12.736] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:12.736] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:12.736] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.736] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:12.736] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.737] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:12.737] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.737] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:12.737] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.737] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:12.737] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.737] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:12.737] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.737] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:12.737] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.737] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:12.737] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:12.737] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:12.737] [PASSIVE]    Targeting self: Kuro
+[23:46:12.737] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:12.737] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.737] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:12.737] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:12.737] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:12.739] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:12.739] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:12.739] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:12.739] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.739] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:12.739] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.739] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:12.739] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.739] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:12.739] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.739] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:12.740] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.740] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:12.740] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.740] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:12.740] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.740] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:12.740] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:12.740] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:12.740] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:12.740] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:12.740] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:12.740] [BASIC] Moving Kaito to target position (Melee)
+[TEST] Player Energy: 2, Enemy Energy: 2
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1014" name="BattleController_ExecuteTurn_UnitsAct" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests.BattleController_ExecuteTurn_UnitsAct" methodname="BattleController_ExecuteTurn_UnitsAct" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" seed="1073585015" result="Passed" start-time="2026-01-30 16:46:12Z" end-time="2026-01-30 16:46:22Z" duration="10.105099" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:12.811] [INFO] HUD root children=1 names: root
+[23:46:12.812] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:12.812] [HUD] HUD doc VTA = BattleHUD
+[23:46:12.812] [INIT] BattleController initialized
+[23:46:12.815] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:12.816] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:12.816] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:12.816] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:12.816] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:12.817] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:12.817] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:12.817] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:12.817] [SPAWN] View bound successfully for Aurelius
+[23:46:12.817] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:12.818] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:12.818] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:12.818] [COLOR] Applied BLUE (Player) to Elara
+[23:46:12.819] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:12.819] [SPAWN] View bound successfully for Elara
+[23:46:12.819] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:12.819] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:12.819] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:12.820] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:12.820] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:12.820] [SPAWN] View bound successfully for Malzahar
+[23:46:12.821] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:12.821] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:12.821] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:12.822] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:12.822] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:12.822] [SPAWN] View bound successfully for Aegis
+[23:46:12.822] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:12.822] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:12.822] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:12.822] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:12.823] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:12.823] [SPAWN] View bound successfully for Gorok
+[23:46:12.823] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:12.823] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:12.823] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:12.823] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:12.823] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:12.823] [SPAWN] View bound successfully for Artemis
+[23:46:12.825] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:12.825] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:12.825] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:12.825] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:12.825] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:12.826] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:12.826] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:12.826] [SPAWN] View bound successfully for Lumina
+[23:46:12.826] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:12.826] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:12.826] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:12.827] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:12.827] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:12.827] [SPAWN] View bound successfully for Merlin
+[23:46:12.827] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:12.828] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:12.828] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:12.828] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:12.828] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:12.828] [SPAWN] View bound successfully for Mortis
+[23:46:12.828] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:12.828] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:12.830] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:12.830] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:12.830] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:12.830] [SPAWN] View bound successfully for Kaito
+[23:46:12.830] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:12.831] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:12.831] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:12.831] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:12.831] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:12.831] [SPAWN] View bound successfully for Kuro
+[23:46:12.831] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:12.832] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:12.832] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:12.832] [COLOR] Applied RED (Enemy) to Draven
+[23:46:12.832] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:12.832] [SPAWN] View bound successfully for Draven
+[23:46:12.833] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:12.833] [INIT] All units spawned. Total units: 12
+[23:46:12.833] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.833] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:12.833] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:12.833] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:12.833] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.833] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:12.833] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.833] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:12.833] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.833] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:12.833] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.833] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:12.833] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.834] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:12.834] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.834] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:12.834] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:12.834] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:12.834] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:12.834] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:12.834] [PASSIVE]    Targeting self: Kuro
+[23:46:12.834] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:12.834] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.834] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:12.834] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:12.834] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:12.834] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:12.834] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:12.834] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:12.834] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.834] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:12.835] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.835] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:12.835] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.835] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:12.835] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.835] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:12.835] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.835] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:12.835] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.835] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:12.835] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:12.835] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:12.835] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:12.835] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:12.835] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:12.835] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:12.835] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:12.837] [BASIC] Moving Kaito to target position (Melee)
+[TEST] Starting battle with 1 players, 1 enemies, seed=999
+[23:46:12.871] [TEST-INIT] Initializing test battle with 1 players, 1 enemies, seed=999
+[23:46:12.871] [ENERGY] ⚡ Energy reset to 2
+[23:46:12.871] [ENERGY] ⚡ Energy reset to 2
+[23:46:12.871] [SPAWN] Spawning 1 units for PLAYER team
+[23:46:12.871] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:46:12.871] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:12.871] [SPAWN] Spawning 1 units for ENEMY team
+[23:46:12.871] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:46:12.871] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:12.873] [TEST-INIT] Units spawned: 12 total
+[23:46:12.873] [TEST-INIT] Test battle initialized. Call StartTestBattle() to begin.
+[23:46:12.873] [TEST] Starting test battle coroutine
+[23:46:12.873] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:12.873] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:12.873] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:12.873] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:12.873] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:12.873] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:12.873] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:12.873] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:12.873] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:12.873] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:12.874] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:12.874] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:12.874] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:12.874] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:12.874] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:12.874] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:12.874] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:12.874] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:12.875] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 1
+[23:46:12.875] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:12.875] [INFO]  Enemy Kaito energy consumed: 2. Before: 2
+[23:46:12.875] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:12.875] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:12.875] [ULTIMATE] Kaito proceeding with 1 target(s). Routing to Single handler.
+[23:46:12.875] [ULTIMATE-SINGLE] 💥 Kaito -> Aurelius (ATTACK)
+[23:46:12.875] [ULTIMATE-SINGLE] Actor: ATK=20, Type=Melee
+[23:46:12.876] [ULTIMATE-SINGLE] Target: HP=165/165, DEF=18
+[23:46:12.876] [ULTIMATE-SINGLE] Actor transform found: EN_Kaito_3
+[23:46:12.876] [ULTIMATE-SINGLE] Moving melee unit to target
+[TEST] Battle started. IsBattleOver=False
+[TEST] Waiting for turn 1 to complete...
+[23:46:14.161] [ULTIMATE-SINGLE] Ultimate cooldown started: 2 turns
+[23:46:14.161] [ULTIMATE-SINGLE] Entering ATTACK/DAMAGE branch
+[23:46:14.161] [ULTIMATE-SINGLE] Calculated damage: 45 (Crit: False)
+[23:46:14.161] [SHIELD] 🛡️ Aurelius has 1 active shield(s). Incoming damage: 45
+[23:46:14.161] [SHIELD]    Shield BROKEN: 30 -> 0 (blocked 30 dmg, 15 penetrates)
+[23:46:14.162] [SHIELD]    Removed 1 broken shield(s) from Aurelius
+[23:46:14.162] [SHIELD] 🛡️ Shield result: 45 dmg -> 15 dmg (absorbed 30)
+[23:46:14.162] [ULTIMATE-SINGLE] After shield: 15 damage penetrates
+[23:46:14.162] [ULTIMATE-SINGLE] HP change: 165 -> 150 (Damage dealt: 15)
+[23:46:14.162] [ULTIMATE-SINGLE] Damage dealt: playing hit animation
+[23:46:14.762] [ULTIMATE-SINGLE] Moving back to original position
+[23:46:15.131] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:15.131] [ULTIMATE-SINGLE] Ultimate single complete
+[23:46:15.131] [DEBUG] Checking victory conditions - Player team dead: False, Enemy team dead: False
+[23:46:15.383] [TURN] Unit: Artemis, IsEnemy: False, HP: 70/70, Energy: 2
+[23:46:15.383] [TURN] ATK: 15, DEF: 4, SPD: 14, Type: Ranged
+[23:46:15.383] [EFFECT-TICK]    Shield duration: 99 -> 98
+[23:46:15.384] [EFFECT-EXPIRE] ❌ Artemis lost 2 effect(s): ATKUp, ATKUp
+[23:46:15.384] [INDICATOR] Showing YELLOW ring for PL_Artemis_5
+[TEST] Turn did not complete within 10s!
+[TEST] Turn execution completed
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1011" name="BattleController_HasRequiredComponents" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests.BattleController_HasRequiredComponents" methodname="BattleController_HasRequiredComponents" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" seed="589571354" result="Passed" start-time="2026-01-30 16:46:22Z" end-time="2026-01-30 16:46:22Z" duration="0.097090" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:22.917] [INFO] HUD root children=1 names: root
+[23:46:22.919] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:22.919] [HUD] HUD doc VTA = BattleHUD
+[23:46:22.919] [INIT] BattleController initialized
+[23:46:22.921] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:22.921] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:22.921] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:22.921] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:22.923] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:22.923] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:22.923] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:22.923] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:22.923] [SPAWN] View bound successfully for Aurelius
+[23:46:22.923] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:22.924] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:22.924] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:22.924] [COLOR] Applied BLUE (Player) to Elara
+[23:46:22.924] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:22.924] [SPAWN] View bound successfully for Elara
+[23:46:22.924] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:22.924] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:22.926] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:22.926] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:22.926] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:22.926] [SPAWN] View bound successfully for Malzahar
+[23:46:22.926] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:22.926] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:22.926] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:22.927] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:22.927] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:22.927] [SPAWN] View bound successfully for Aegis
+[23:46:22.927] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:22.927] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:22.927] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:22.929] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:22.929] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:22.929] [SPAWN] View bound successfully for Gorok
+[23:46:22.929] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:22.929] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:22.930] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:22.930] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:22.930] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:22.930] [SPAWN] View bound successfully for Artemis
+[23:46:22.930] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:22.930] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:22.930] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:22.931] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:22.931] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:22.932] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:22.932] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:22.932] [SPAWN] View bound successfully for Lumina
+[23:46:22.932] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:22.932] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:22.932] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:22.932] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:22.932] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:22.933] [SPAWN] View bound successfully for Merlin
+[23:46:22.933] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:22.933] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:22.933] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:22.934] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:22.934] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:22.934] [SPAWN] View bound successfully for Mortis
+[23:46:22.934] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:22.934] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:22.935] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:22.935] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:22.935] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:22.935] [SPAWN] View bound successfully for Kaito
+[23:46:22.935] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:22.935] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:22.935] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:22.937] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:22.937] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:22.937] [SPAWN] View bound successfully for Kuro
+[23:46:22.937] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:22.937] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:22.938] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:22.938] [COLOR] Applied RED (Enemy) to Draven
+[23:46:22.938] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:22.938] [SPAWN] View bound successfully for Draven
+[23:46:22.938] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:22.938] [INIT] All units spawned. Total units: 12
+[23:46:22.938] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:22.938] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:22.938] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:22.938] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:22.938] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:22.938] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:22.938] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:22.938] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:22.938] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:22.938] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:22.938] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:22.938] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:22.939] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:22.939] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:22.939] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:22.939] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:22.939] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:22.939] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:22.939] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:22.939] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:22.939] [PASSIVE]    Targeting self: Kuro
+[23:46:22.939] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:22.939] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.939] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:22.940] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:22.940] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:22.940] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:22.940] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:22.940] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:22.940] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:22.941] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:22.941] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.941] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:22.941] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.941] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:22.941] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.941] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:22.941] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.941] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:22.941] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.941] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:22.941] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:22.941] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:22.941] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:22.941] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:22.941] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:22.941] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:22.942] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:22.942] [BASIC] Moving Kaito to target position (Melee)
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1013" name="BattleController_StartBattle_InitializesUnits" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests.BattleController_StartBattle_InitializesUnits" methodname="BattleController_StartBattle_InitializesUnits" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" seed="207439957" result="Failed" start-time="2026-01-30 16:46:22Z" end-time="2026-01-30 16:46:23Z" duration="0.105665" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Should have 1 player unit
+  Expected: 1
+  But was:  6
+]]></message>
+                    <stack-trace><![CDATA[at VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests+<BattleController_StartBattle_InitializesUnits>d__6.MoveNext () [0x000c7] in D:\Projects\GameDevelopment\Unity\Vanguard Arena\Assets\_Project\Tests\PlayMode\Integration\BattleControllerBasicTests.cs:98
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.013] [INFO] HUD root children=1 names: root
+[23:46:23.014] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.014] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.014] [INIT] BattleController initialized
+[23:46:23.017] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.017] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.017] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.017] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.018] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.019] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.019] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.019] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.019] [SPAWN] View bound successfully for Aurelius
+[23:46:23.019] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.019] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.019] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.021] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.021] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.021] [SPAWN] View bound successfully for Elara
+[23:46:23.021] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.022] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.022] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.022] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.022] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.022] [SPAWN] View bound successfully for Malzahar
+[23:46:23.022] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.023] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.023] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.023] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.023] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.023] [SPAWN] View bound successfully for Aegis
+[23:46:23.023] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.024] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.024] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.024] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.025] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.025] [SPAWN] View bound successfully for Gorok
+[23:46:23.025] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.026] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.026] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.026] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.026] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.026] [SPAWN] View bound successfully for Artemis
+[23:46:23.026] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.027] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.027] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.027] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.027] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.028] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.028] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.028] [SPAWN] View bound successfully for Lumina
+[23:46:23.028] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.029] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.029] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.029] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.029] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.029] [SPAWN] View bound successfully for Merlin
+[23:46:23.029] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.030] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.030] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.030] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.030] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.031] [SPAWN] View bound successfully for Mortis
+[23:46:23.031] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.031] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.031] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.032] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.032] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.032] [SPAWN] View bound successfully for Kaito
+[23:46:23.032] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.032] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.033] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.033] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.033] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.033] [SPAWN] View bound successfully for Kuro
+[23:46:23.033] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.034] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.034] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.034] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.034] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.035] [SPAWN] View bound successfully for Draven
+[23:46:23.035] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.035] [INIT] All units spawned. Total units: 12
+[23:46:23.035] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.035] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.035] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.035] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.035] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.035] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.035] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.035] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.035] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.035] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.035] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.035] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.035] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.035] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.035] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.035] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.035] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.035] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.035] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.035] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.035] [PASSIVE]    Targeting self: Kuro
+[23:46:23.035] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.035] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.035] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.035] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.037] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.037] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.037] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.037] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.037] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.037] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.037] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.037] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.037] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.037] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.037] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.037] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.037] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.037] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.037] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.037] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.038] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.038] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.038] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.038] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.038] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.039] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.039] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.039] [BASIC] Moving Kaito to target position (Melee)
+[TEST] Starting battle with 1 players, 1 enemies, seed=999
+[23:46:23.074] [TEST-INIT] Initializing test battle with 1 players, 1 enemies, seed=999
+[23:46:23.074] [ENERGY] ⚡ Energy reset to 2
+[23:46:23.074] [ENERGY] ⚡ Energy reset to 2
+[23:46:23.074] [SPAWN] Spawning 1 units for PLAYER team
+[23:46:23.075] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:46:23.075] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.075] [SPAWN] Spawning 1 units for ENEMY team
+[23:46:23.075] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:46:23.075] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.075] [TEST-INIT] Units spawned: 12 total
+[23:46:23.075] [TEST-INIT] Test battle initialized. Call StartTestBattle() to begin.
+[23:46:23.075] [TEST] Starting test battle coroutine
+[23:46:23.076] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.076] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.076] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.076] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.076] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.076] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.076] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.076] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.076] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.076] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.076] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.077] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.077] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.077] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.077] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.077] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.077] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.077] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.077] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 1
+[23:46:23.077] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.078] [INFO]  Enemy Kaito energy consumed: 2. Before: 2
+[23:46:23.078] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.078] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.078] [ULTIMATE] Kaito proceeding with 1 target(s). Routing to Single handler.
+[23:46:23.079] [ULTIMATE-SINGLE] 💥 Kaito -> Aurelius (ATTACK)
+[23:46:23.079] [ULTIMATE-SINGLE] Actor: ATK=20, Type=Melee
+[23:46:23.079] [ULTIMATE-SINGLE] Target: HP=165/165, DEF=18
+[23:46:23.079] [ULTIMATE-SINGLE] Actor transform found: EN_Kaito_3
+[23:46:23.079] [ULTIMATE-SINGLE] Moving melee unit to target
+[TEST] Battle started. IsBattleOver=False
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1010" name="BattleScene_LoadsSuccessfully" fullname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests.BattleScene_LoadsSuccessfully" methodname="BattleScene_LoadsSuccessfully" classname="VanguardArena.Tests.PlayMode.Integration.BattleControllerBasicTests" runstate="Runnable" seed="262812446" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.096586" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.120] [INFO] HUD root children=1 names: root
+[23:46:23.120] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.120] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.120] [INIT] BattleController initialized
+[23:46:23.124] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.124] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.124] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.124] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.125] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.125] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.125] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.125] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.125] [SPAWN] View bound successfully for Aurelius
+[23:46:23.125] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.126] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.127] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.127] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.127] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.127] [SPAWN] View bound successfully for Elara
+[23:46:23.127] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.127] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.127] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.128] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.128] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.128] [SPAWN] View bound successfully for Malzahar
+[23:46:23.129] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.129] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.129] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.130] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.130] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.130] [SPAWN] View bound successfully for Aegis
+[23:46:23.130] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.131] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.131] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.131] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.131] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.131] [SPAWN] View bound successfully for Gorok
+[23:46:23.131] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.131] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.132] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.132] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.132] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.132] [SPAWN] View bound successfully for Artemis
+[23:46:23.132] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.132] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.132] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.133] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.133] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.134] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.134] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.134] [SPAWN] View bound successfully for Lumina
+[23:46:23.134] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.135] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.135] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.135] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.136] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.136] [SPAWN] View bound successfully for Merlin
+[23:46:23.136] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.136] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.136] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.136] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.136] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.136] [SPAWN] View bound successfully for Mortis
+[23:46:23.136] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.137] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.137] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.137] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.138] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.138] [SPAWN] View bound successfully for Kaito
+[23:46:23.138] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.138] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.138] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.139] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.139] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.139] [SPAWN] View bound successfully for Kuro
+[23:46:23.139] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.139] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.140] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.140] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.141] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.141] [SPAWN] View bound successfully for Draven
+[23:46:23.141] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.141] [INIT] All units spawned. Total units: 12
+[23:46:23.141] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.141] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.141] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.141] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.141] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.141] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.141] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.141] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.141] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.141] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.141] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.142] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.142] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.142] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.142] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.142] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.142] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.142] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.142] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.142] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.142] [PASSIVE]    Targeting self: Kuro
+[23:46:23.142] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.142] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.142] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.143] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.143] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.143] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.143] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.143] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.143] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.143] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.143] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.143] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.143] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.143] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.144] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.144] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.144] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.144] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.144] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.144] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.144] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.144] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.144] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.144] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.144] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.144] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.145] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.145] [BASIC] Moving Kaito to target position (Melee)
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="1016" name="UISystemTests" fullname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" classname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.500696" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1020" name="BattleScene_HasEnergyBars" fullname="VanguardArena.Tests.PlayMode.Integration.UISystemTests.BattleScene_HasEnergyBars" methodname="BattleScene_HasEnergyBars" classname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" runstate="Runnable" seed="826628814" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.098899" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.220] [INFO] HUD root children=1 names: root
+[23:46:23.221] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.221] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.221] [INIT] BattleController initialized
+[23:46:23.223] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.223] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.223] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.223] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.225] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.225] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.225] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.225] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.225] [SPAWN] View bound successfully for Aurelius
+[23:46:23.225] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.227] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.227] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.228] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.228] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.228] [SPAWN] View bound successfully for Elara
+[23:46:23.228] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.228] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.228] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.229] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.229] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.229] [SPAWN] View bound successfully for Malzahar
+[23:46:23.229] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.229] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.230] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.230] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.231] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.231] [SPAWN] View bound successfully for Aegis
+[23:46:23.231] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.231] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.231] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.231] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.231] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.231] [SPAWN] View bound successfully for Gorok
+[23:46:23.232] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.232] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.232] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.233] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.233] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.233] [SPAWN] View bound successfully for Artemis
+[23:46:23.233] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.233] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.233] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.234] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.234] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.234] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.234] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.234] [SPAWN] View bound successfully for Lumina
+[23:46:23.234] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.235] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.235] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.235] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.236] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.236] [SPAWN] View bound successfully for Merlin
+[23:46:23.236] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.237] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.237] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.237] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.237] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.238] [SPAWN] View bound successfully for Mortis
+[23:46:23.238] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.238] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.238] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.239] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.239] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.239] [SPAWN] View bound successfully for Kaito
+[23:46:23.239] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.239] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.240] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.240] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.240] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.240] [SPAWN] View bound successfully for Kuro
+[23:46:23.240] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.241] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.241] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.241] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.241] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.241] [SPAWN] View bound successfully for Draven
+[23:46:23.241] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.241] [INIT] All units spawned. Total units: 12
+[23:46:23.241] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.241] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.241] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.242] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.242] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.242] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.242] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.242] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.242] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.242] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.242] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.242] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.242] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.242] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.242] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.242] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.242] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.242] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.242] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.242] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.242] [PASSIVE]    Targeting self: Kuro
+[23:46:23.242] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.242] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.242] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.244] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.244] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.244] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.244] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.244] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.244] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.244] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.244] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.244] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.244] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.244] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.245] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.245] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.245] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.245] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.245] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.245] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.245] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.245] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.245] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.245] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.246] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.246] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.246] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.247] [BASIC] Moving Kaito to target position (Melee)
+[TEST] BattleHudController found: UIDocument
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1017" name="UITestHelper_FindUIElement_CanFindGameObjects" fullname="VanguardArena.Tests.PlayMode.Integration.UISystemTests.UITestHelper_FindUIElement_CanFindGameObjects" methodname="UITestHelper_FindUIElement_CanFindGameObjects" classname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" runstate="Runnable" seed="613406659" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.096595" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.322] [INFO] HUD root children=1 names: root
+[23:46:23.322] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.322] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.323] [INIT] BattleController initialized
+[23:46:23.325] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.326] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.326] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.326] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.327] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.327] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.327] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.327] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.327] [SPAWN] View bound successfully for Aurelius
+[23:46:23.327] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.328] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.328] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.328] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.328] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.328] [SPAWN] View bound successfully for Elara
+[23:46:23.328] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.329] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.329] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.329] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.329] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.329] [SPAWN] View bound successfully for Malzahar
+[23:46:23.329] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.331] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.331] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.331] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.331] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.332] [SPAWN] View bound successfully for Aegis
+[23:46:23.332] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.332] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.332] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.333] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.333] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.333] [SPAWN] View bound successfully for Gorok
+[23:46:23.333] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.333] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.333] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.334] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.334] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.334] [SPAWN] View bound successfully for Artemis
+[23:46:23.334] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.334] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.334] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.335] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.335] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.335] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.335] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.335] [SPAWN] View bound successfully for Lumina
+[23:46:23.335] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.336] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.337] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.337] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.337] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.337] [SPAWN] View bound successfully for Merlin
+[23:46:23.337] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.338] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.338] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.338] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.338] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.339] [SPAWN] View bound successfully for Mortis
+[23:46:23.339] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.339] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.339] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.340] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.340] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.340] [SPAWN] View bound successfully for Kaito
+[23:46:23.340] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.340] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.340] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.340] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.341] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.341] [SPAWN] View bound successfully for Kuro
+[23:46:23.341] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.341] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.341] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.342] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.342] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.342] [SPAWN] View bound successfully for Draven
+[23:46:23.342] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.342] [INIT] All units spawned. Total units: 12
+[23:46:23.342] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.342] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.342] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.342] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.342] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.342] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.342] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.342] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.342] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.342] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.342] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.342] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.342] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.342] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.344] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.344] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.344] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.344] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.344] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.344] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.344] [PASSIVE]    Targeting self: Kuro
+[23:46:23.344] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.344] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.344] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.344] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.344] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.344] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.344] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.344] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.344] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.344] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.344] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.344] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.344] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.344] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.346] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.346] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.346] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.346] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.346] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.346] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.347] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.347] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.347] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.347] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.347] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.347] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.347] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.347] [BASIC] Moving Kaito to target position (Melee)
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1019" name="UITestHelper_FindUIElement_ReturnsNullForNonExistent" fullname="VanguardArena.Tests.PlayMode.Integration.UISystemTests.UITestHelper_FindUIElement_ReturnsNullForNonExistent" methodname="UITestHelper_FindUIElement_ReturnsNullForNonExistent" classname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" runstate="Runnable" seed="1269666893" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.092842" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.418] [INFO] HUD root children=1 names: root
+[23:46:23.418] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.419] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.419] [INIT] BattleController initialized
+[23:46:23.421] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.422] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.422] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.422] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.422] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.422] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.423] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.423] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.423] [SPAWN] View bound successfully for Aurelius
+[23:46:23.423] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.424] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.424] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.424] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.424] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.424] [SPAWN] View bound successfully for Elara
+[23:46:23.424] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.425] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.425] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.425] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.425] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.426] [SPAWN] View bound successfully for Malzahar
+[23:46:23.426] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.427] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.427] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.427] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.427] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.428] [SPAWN] View bound successfully for Aegis
+[23:46:23.428] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.428] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.428] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.429] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.429] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.429] [SPAWN] View bound successfully for Gorok
+[23:46:23.429] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.429] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.430] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.430] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.430] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.430] [SPAWN] View bound successfully for Artemis
+[23:46:23.430] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.430] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.430] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.431] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.431] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.431] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.431] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.431] [SPAWN] View bound successfully for Lumina
+[23:46:23.431] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.431] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.431] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.433] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.433] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.433] [SPAWN] View bound successfully for Merlin
+[23:46:23.434] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.434] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.434] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.435] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.435] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.435] [SPAWN] View bound successfully for Mortis
+[23:46:23.435] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.435] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.435] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.435] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.436] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.436] [SPAWN] View bound successfully for Kaito
+[23:46:23.436] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.436] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.436] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.437] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.437] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.437] [SPAWN] View bound successfully for Kuro
+[23:46:23.437] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.438] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.438] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.439] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.439] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.439] [SPAWN] View bound successfully for Draven
+[23:46:23.439] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.439] [INIT] All units spawned. Total units: 12
+[23:46:23.439] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.439] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.439] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.439] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.439] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.439] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.439] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.439] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.440] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.440] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.440] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.440] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.440] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.440] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.440] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.440] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.440] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.440] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.440] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.440] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.440] [PASSIVE]    Targeting self: Kuro
+[23:46:23.440] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.441] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.441] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.441] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.441] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.441] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.441] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.441] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.441] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.441] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.443] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.443] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.443] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.443] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.443] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.443] [BASIC] Moving Kaito to target position (Melee)
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1018" name="UITestHelper_IsUIElementVisible_DetectsActiveState" fullname="VanguardArena.Tests.PlayMode.Integration.UISystemTests.UITestHelper_IsUIElementVisible_DetectsActiveState" methodname="UITestHelper_IsUIElementVisible_DetectsActiveState" classname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" runstate="Runnable" seed="219076121" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.094262" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.511] [INFO] HUD root children=1 names: root
+[23:46:23.511] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.511] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.513] [INIT] BattleController initialized
+[23:46:23.515] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.516] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.516] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.516] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.516] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.516] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.517] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.517] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.517] [SPAWN] View bound successfully for Aurelius
+[23:46:23.517] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.518] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.518] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.519] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.519] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.519] [SPAWN] View bound successfully for Elara
+[23:46:23.519] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.519] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.520] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.520] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.520] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.520] [SPAWN] View bound successfully for Malzahar
+[23:46:23.520] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.520] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.521] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.521] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.521] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.521] [SPAWN] View bound successfully for Aegis
+[23:46:23.521] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.522] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.523] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.523] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.523] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.523] [SPAWN] View bound successfully for Gorok
+[23:46:23.523] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.523] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.523] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.524] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.524] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.524] [SPAWN] View bound successfully for Artemis
+[23:46:23.524] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.524] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.524] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.524] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.524] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.526] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.526] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.526] [SPAWN] View bound successfully for Lumina
+[23:46:23.526] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.526] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.527] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.527] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.527] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.527] [SPAWN] View bound successfully for Merlin
+[23:46:23.527] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.527] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.528] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.528] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.528] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.528] [SPAWN] View bound successfully for Mortis
+[23:46:23.528] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.528] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.528] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.530] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.530] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.530] [SPAWN] View bound successfully for Kaito
+[23:46:23.530] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.530] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.531] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.531] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.531] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.531] [SPAWN] View bound successfully for Kuro
+[23:46:23.531] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.531] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.531] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.532] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.532] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.532] [SPAWN] View bound successfully for Draven
+[23:46:23.532] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.532] [INIT] All units spawned. Total units: 12
+[23:46:23.532] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.532] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.532] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.532] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.532] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.533] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.533] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.533] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.533] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.533] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.533] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.533] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.533] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.533] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.533] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.533] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.533] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.533] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.533] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.533] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.534] [PASSIVE]    Targeting self: Kuro
+[23:46:23.534] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.534] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.534] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.534] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.534] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.534] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.534] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.534] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.534] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.535] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.535] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.535] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.535] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.535] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.535] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.535] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.535] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.535] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.535] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.536] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.536] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.536] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.536] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.536] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.537] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.537] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.537] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.537] [BASIC] Moving Kaito to target position (Melee)
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+]]></output>
+                </test-case>
+                <test-case id="1021" name="UnitView_HasHPBar" fullname="VanguardArena.Tests.PlayMode.Integration.UISystemTests.UnitView_HasHPBar" methodname="UnitView_HasHPBar" classname="VanguardArena.Tests.PlayMode.Integration.UISystemTests" runstate="Runnable" seed="2025820166" result="Passed" start-time="2026-01-30 16:46:23Z" end-time="2026-01-30 16:46:23Z" duration="0.110479" asserts="0">
+                  <properties>
+                    <property name="_JOINTYPE" value="UnityCombinatorial" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[[FileLogger] Initialized. Logging to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+[23:46:23.606] [INFO] HUD root children=1 names: root
+[23:46:23.606] [HUD] HUD found btnBasic=True, btnUlt=True, btnPassive=True, actionPanel=True
+[23:46:23.607] [HUD] HUD doc VTA = BattleHUD
+[23:46:23.607] [INIT] BattleController initialized
+[23:46:23.609] [INFO]  Initialized DamagePopup pool with 15 instances.
+[23:46:23.610] [INIT] Player lineup count: 6, Enemy lineup count: 6
+[23:46:23.610] [SPAWN] Spawning 6 units for PLAYER team
+[23:46:23.610] [SPAWN] Aurelius created: IsEnemy=False, Slot=0, Column=0, Row=0, HP=165/165, ATK=10
+[23:46:23.611] [SPAWN] GameObject instantiated: PL_Aurelius_0
+[23:46:23.611] [INDICATOR] Created default visual for PL_Aurelius_0
+[23:46:23.611] [COLOR] Applied BLUE (Player) to Aurelius
+[23:46:23.611] [VIEW-REFRESH] Aurelius alive=True, _deathAnimationStarted=False
+[23:46:23.611] [SPAWN] View bound successfully for Aurelius
+[23:46:23.611] [SPAWN] Elara created: IsEnemy=False, Slot=1, Column=1, Row=0, HP=80/80, ATK=8
+[23:46:23.611] [SPAWN] GameObject instantiated: PL_Elara_1
+[23:46:23.613] [INDICATOR] Created default visual for PL_Elara_1
+[23:46:23.613] [COLOR] Applied BLUE (Player) to Elara
+[23:46:23.613] [VIEW-REFRESH] Elara alive=True, _deathAnimationStarted=False
+[23:46:23.613] [SPAWN] View bound successfully for Elara
+[23:46:23.613] [SPAWN] Malzahar created: IsEnemy=False, Slot=2, Column=2, Row=0, HP=80/80, ATK=16
+[23:46:23.614] [SPAWN] GameObject instantiated: PL_Malzahar_2
+[23:46:23.614] [INDICATOR] Created default visual for PL_Malzahar_2
+[23:46:23.614] [COLOR] Applied BLUE (Player) to Malzahar
+[23:46:23.614] [VIEW-REFRESH] Malzahar alive=True, _deathAnimationStarted=False
+[23:46:23.614] [SPAWN] View bound successfully for Malzahar
+[23:46:23.614] [SPAWN] Aegis created: IsEnemy=False, Slot=3, Column=0, Row=1, HP=150/150, ATK=8
+[23:46:23.615] [SPAWN] GameObject instantiated: PL_Aegis_3
+[23:46:23.615] [INDICATOR] Created default visual for PL_Aegis_3
+[23:46:23.615] [COLOR] Applied BLUE (Player) to Aegis
+[23:46:23.616] [VIEW-REFRESH] Aegis alive=True, _deathAnimationStarted=False
+[23:46:23.616] [SPAWN] View bound successfully for Aegis
+[23:46:23.616] [SPAWN] Gorok created: IsEnemy=False, Slot=4, Column=1, Row=1, HP=135/135, ATK=9
+[23:46:23.617] [SPAWN] GameObject instantiated: PL_Gorok_4
+[23:46:23.617] [INDICATOR] Created default visual for PL_Gorok_4
+[23:46:23.617] [COLOR] Applied BLUE (Player) to Gorok
+[23:46:23.617] [VIEW-REFRESH] Gorok alive=True, _deathAnimationStarted=False
+[23:46:23.617] [SPAWN] View bound successfully for Gorok
+[23:46:23.617] [SPAWN] Artemis created: IsEnemy=False, Slot=5, Column=2, Row=1, HP=70/70, ATK=15
+[23:46:23.618] [SPAWN] GameObject instantiated: PL_Artemis_5
+[23:46:23.618] [INDICATOR] Created default visual for PL_Artemis_5
+[23:46:23.618] [COLOR] Applied BLUE (Player) to Artemis
+[23:46:23.618] [VIEW-REFRESH] Artemis alive=True, _deathAnimationStarted=False
+[23:46:23.618] [SPAWN] View bound successfully for Artemis
+[23:46:23.618] [SPAWN] Team spawn complete. Total units in battle: 6
+[23:46:23.618] [SPAWN] Spawning 6 units for ENEMY team
+[23:46:23.618] [SPAWN] Lumina created: IsEnemy=True, Slot=0, Column=0, Row=0, HP=95/95, ATK=9
+[23:46:23.619] [SPAWN] GameObject instantiated: EN_Lumina_0
+[23:46:23.619] [INDICATOR] Created default visual for EN_Lumina_0
+[23:46:23.619] [COLOR] Applied RED (Enemy) to Lumina
+[23:46:23.619] [VIEW-REFRESH] Lumina alive=True, _deathAnimationStarted=False
+[23:46:23.619] [SPAWN] View bound successfully for Lumina
+[23:46:23.619] [SPAWN] Merlin created: IsEnemy=True, Slot=1, Column=1, Row=0, HP=85/85, ATK=15
+[23:46:23.621] [SPAWN] GameObject instantiated: EN_Merlin_1
+[23:46:23.621] [INDICATOR] Created default visual for EN_Merlin_1
+[23:46:23.621] [COLOR] Applied RED (Enemy) to Merlin
+[23:46:23.621] [VIEW-REFRESH] Merlin alive=True, _deathAnimationStarted=False
+[23:46:23.621] [SPAWN] View bound successfully for Merlin
+[23:46:23.621] [SPAWN] Mortis created: IsEnemy=True, Slot=2, Column=2, Row=0, HP=85/85, ATK=14
+[23:46:23.622] [SPAWN] GameObject instantiated: EN_Mortis_2
+[23:46:23.622] [INDICATOR] Created default visual for EN_Mortis_2
+[23:46:23.622] [COLOR] Applied RED (Enemy) to Mortis
+[23:46:23.622] [VIEW-REFRESH] Mortis alive=True, _deathAnimationStarted=False
+[23:46:23.623] [SPAWN] View bound successfully for Mortis
+[23:46:23.623] [SPAWN] Kaito created: IsEnemy=True, Slot=3, Column=0, Row=1, HP=90/90, ATK=20
+[23:46:23.624] [SPAWN] GameObject instantiated: EN_Kaito_3
+[23:46:23.624] [INDICATOR] Created default visual for EN_Kaito_3
+[23:46:23.624] [COLOR] Applied RED (Enemy) to Kaito
+[23:46:23.624] [VIEW-REFRESH] Kaito alive=True, _deathAnimationStarted=False
+[23:46:23.624] [SPAWN] View bound successfully for Kaito
+[23:46:23.624] [SPAWN] Kuro created: IsEnemy=True, Slot=4, Column=1, Row=1, HP=75/75, ATK=12
+[23:46:23.624] [SPAWN] GameObject instantiated: EN_Kuro_4
+[23:46:23.624] [INDICATOR] Created default visual for EN_Kuro_4
+[23:46:23.624] [COLOR] Applied RED (Enemy) to Kuro
+[23:46:23.626] [VIEW-REFRESH] Kuro alive=True, _deathAnimationStarted=False
+[23:46:23.626] [SPAWN] View bound successfully for Kuro
+[23:46:23.626] [SPAWN] Draven created: IsEnemy=True, Slot=5, Column=2, Row=1, HP=210/210, ATK=16
+[23:46:23.626] [SPAWN] GameObject instantiated: EN_Draven_5
+[23:46:23.626] [INDICATOR] Created default visual for EN_Draven_5
+[23:46:23.627] [COLOR] Applied RED (Enemy) to Draven
+[23:46:23.627] [VIEW-REFRESH] Draven alive=True, _deathAnimationStarted=False
+[23:46:23.627] [SPAWN] View bound successfully for Draven
+[23:46:23.627] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.627] [INIT] All units spawned. Total units: 12
+[23:46:23.627] [INIT] Player units: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.627] [INIT] Enemy units: Lumina, Merlin, Mortis, Kaito, Kuro, Draven
+[23:46:23.627] [PASSIVE] 🌟 Aegis triggers 'Protective Shield' (OnBattleStart)
+[23:46:23.627] [PASSIVE]    Effect: Shield, Value: 30, Modifier: 0.2, Duration: 99
+[23:46:23.627] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.627] [EFFECT] ✨ Applying Shield to Aurelius: value=30, modifier=0, duration=99
+[23:46:23.627] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.628] [EFFECT] ✨ Applying Shield to Elara: value=30, modifier=0, duration=99
+[23:46:23.628] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.628] [EFFECT] ✨ Applying Shield to Malzahar: value=30, modifier=0, duration=99
+[23:46:23.628] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.628] [EFFECT] ✨ Applying Shield to Aegis: value=30, modifier=0, duration=99
+[23:46:23.628] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.628] [EFFECT] ✨ Applying Shield to Gorok: value=30, modifier=0, duration=99
+[23:46:23.628] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.628] [EFFECT] ✨ Applying Shield to Artemis: value=30, modifier=0, duration=99
+[23:46:23.628] [EFFECT]    🛡️ Shield added: 0 -> 30 (stacked)
+[23:46:23.628] [PASSIVE] ✅ Passive 'Protective Shield' complete
+[23:46:23.628] [PASSIVE] 🌟 Kuro triggers 'Quick Strike' (OnBattleStart)
+[23:46:23.628] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.628] [PASSIVE]    Targeting self: Kuro
+[23:46:23.628] [EFFECT] ✨ Applying ATKUp to Kuro: value=0, modifier=0.2, duration=1
+[23:46:23.629] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.629] [PASSIVE] ✅ Passive 'Quick Strike' complete
+[23:46:23.629] [INFO]  Start() called. Spawning done. Starting coroutine...
+[23:46:23.629] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.629] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.629] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.629] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.629] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.629] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.630] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.630] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.630] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.630] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.630] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.630] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.631] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.631] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.631] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.631] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.631] [EFFECT]    📊 ATKUp applied: 20 % for 1 turns
+[23:46:23.631] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.631] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 0
+[23:46:23.631] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.631] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.631] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.631] [BASIC] ⚔️ Kaito (ATK:20, Type:Melee) -> Aurelius (HP:165/165, DEF:18)
+[23:46:23.632] [BASIC] Moving Kaito to target position (Melee)
+[TEST] Starting battle with 1 players, 0 enemies, seed=999
+[23:46:23.667] [TEST-INIT] Initializing test battle with 1 players, 0 enemies, seed=999
+[23:46:23.667] [ENERGY] ⚡ Energy reset to 2
+[23:46:23.667] [ENERGY] ⚡ Energy reset to 2
+[23:46:23.669] [SPAWN] Spawning 1 units for PLAYER team
+[23:46:23.669] [SPAWN] ⚠️ Slot 0 has null definition or prefab. Skipping.
+[23:46:23.669] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.669] [SPAWN] Spawning 0 units for ENEMY team
+[23:46:23.669] [SPAWN] Team spawn complete. Total units in battle: 12
+[23:46:23.669] [TEST-INIT] Units spawned: 12 total
+[23:46:23.669] [TEST-INIT] Test battle initialized. Call StartTestBattle() to begin.
+[23:46:23.669] [TEST] Starting test battle coroutine
+[23:46:23.669] [DEBUG] Checking victory conditions (Turn Start) - Player team dead: False, Enemy team dead: False
+[23:46:23.669] [TURN] Timeline: Kaito -> Artemis -> Elara -> Kuro -> Lumina -> Malzahar -> Merlin -> Mortis -> Aegis -> Draven -> Aurelius -> Gorok
+[23:46:23.669] [PASSIVE] 🌟 Elara triggers 'Combat Boost' (OnTurnStart)
+[23:46:23.670] [PASSIVE]    Effect: ATKUp, Value: 0, Modifier: 0.2, Duration: 1
+[23:46:23.670] [PASSIVE]    Targeting 6 allies: Aurelius, Elara, Malzahar, Aegis, Gorok, Artemis
+[23:46:23.670] [EFFECT] ✨ Applying ATKUp to Aurelius: value=0, modifier=0.2, duration=1
+[23:46:23.670] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.670] [EFFECT] ✨ Applying ATKUp to Elara: value=0, modifier=0.2, duration=1
+[23:46:23.670] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.670] [EFFECT] ✨ Applying ATKUp to Malzahar: value=0, modifier=0.2, duration=1
+[23:46:23.670] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.671] [EFFECT] ✨ Applying ATKUp to Aegis: value=0, modifier=0.2, duration=1
+[23:46:23.671] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.671] [EFFECT] ✨ Applying ATKUp to Gorok: value=0, modifier=0.2, duration=1
+[23:46:23.671] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.671] [EFFECT] ✨ Applying ATKUp to Artemis: value=0, modifier=0.2, duration=1
+[23:46:23.671] [EFFECT]    📊 ATKUp stacked: 20 % for 1 turns (total: 2 stacks)
+[23:46:23.671] [PASSIVE] ✅ Passive 'Combat Boost' complete
+[23:46:23.671] [TURN] Unit: Kaito, IsEnemy: True, HP: 90/90, Energy: 1
+[23:46:23.671] [TURN] ATK: 20, DEF: 5, SPD: 17, Type: Melee
+[23:46:23.672] [INFO]  Enemy Kaito energy consumed: 2. Before: 2
+[23:46:23.672] [INFO] [TARGET] Kaito (Col 0) selecting target...
+[23:46:23.672] [TARGET] → Found front row target: Aurelius (Col 0, Row 0)
+[23:46:23.672] [ULTIMATE] Kaito proceeding with 1 target(s). Routing to Single handler.
+[23:46:23.672] [ULTIMATE-SINGLE] 💥 Kaito -> Aurelius (ATTACK)
+[23:46:23.672] [ULTIMATE-SINGLE] Actor: ATK=20, Type=Melee
+[23:46:23.672] [ULTIMATE-SINGLE] Target: HP=165/165, DEF=18
+[23:46:23.672] [ULTIMATE-SINGLE] Actor transform found: EN_Kaito_3
+[23:46:23.672] [ULTIMATE-SINGLE] Moving melee unit to target
+[TEST] Battle started. IsBattleOver=False
+[TEST] Unit has UnitOverheadHud
+[FileLogger] Shutdown complete. Log saved to: D:/Projects/GameDevelopment/Unity/Vanguard Arena/Assets\..\battle_debug.log
+Saving results to: C:/Users/kali/AppData/LocalLow/DefaultCompany/Vanguard Arena\TestResults.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
